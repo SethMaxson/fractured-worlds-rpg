@@ -1,0 +1,35 @@
+name = 'Fractured Worlds RPG'
+type = 'rpg'
+# will only be read by the client
+shortName = 'Fractured Worlds'
+description = 'The JRPG styled companion to the Fractured Worlds campaign.'
+themeColor = '#9900ff'
+
+modules = [
+   '@rpgjs/plugin-emotion-bubbles',
+    './main',
+    '@rpgjs/title-screen',
+    '@rpgjs/save',
+    '@rpgjs/mobile-gui',
+    '@rpgjs/default-gui',
+    '@rpgjs/gamepad'
+]
+
+
+
+[express]
+    port = 62318
+
+[titleScreen]
+    title = 'Fractured Worlds'
+    # music = '<sound id>'
+
+[canvas]
+    antialias = false
+    autoDensity = true
+    # resolution = 2
+
+[start]
+    map = 'simplemap'
+    graphic = 'hero'
+    hitbox = [16, 16]
