@@ -1416,7 +1416,7 @@ RpgClientModuleEngine2 = __decorateClass$1([
           if (!scene || !scene.viewport) {
             return;
           }
-          (_a = scene.viewport) == null ? void 0 : _a.setZoom(2);
+          // (_a = scene.viewport) == null ? void 0 : _a.setZoom(2);
         }
       }
     }
