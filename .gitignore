@@ -1,3 +1,4 @@
-dist
+# Need to re-ignore this later
+# dist
 node_modules
 modules/map_import
