@@ -3,14 +3,14 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "maps/[Town]VictorianGarden_LPC.tsx",
+    "activeFile": "maps/somewhere-district-1.tmx",
     "expandedProjectPaths": [
         ".",
-        "maps/interiors",
-        "maps/somewhere",
-        "maps",
         "maps/somewhere-maps",
-        "maps/[Memories]"
+        "maps/somewhere",
+        "maps/[Memories]",
+        "maps/interiors",
+        "maps"
     ],
     "fileStates": {
         "[A]Wall-Up_pipo.tsx": {
@@ -49,7 +49,7 @@
         "maps/[Base]BaseChip_pipo.tsx": {
             "dynamicWrapping": false,
             "scaleInDock": 1.5,
-            "scaleInEditor": 4
+            "scaleInEditor": 0.5
         },
         "maps/[Memories]/wonderland-visit-1-maze.tmx": {
             "expandedObjectLayers": [
@@ -158,11 +158,11 @@
             "expandedObjectLayers": [
                 3
             ],
-            "scale": 0.33,
+            "scale": 4,
             "selectedLayer": 10,
             "viewCenter": {
-                "x": 1054.5454545454545,
-                "y": 1334.8484848484848
+                "x": 1155.375,
+                "y": 1153.25
             }
         },
         "maps/somewhere-district-2.tmx": {
@@ -261,23 +261,25 @@
         "maps/somewhere-district-3.tmx",
         "maps/[Town]VictorianStreets_LPC.tsx",
         "maps/[Memories]/wonderland-visit-1-maze.tmx",
-        "maps/[Town]VictorianGarden_LPC.tsx"
+        "maps/[Town]VictorianGarden_LPC.tsx",
+        "maps/[Base]BaseChip_pipo.tsx",
+        "maps/vehicle-one-more-day.tmx"
     ],
     "project": "fractured-worlds.tiled-project",
     "property.type": "int",
     "recentFiles": [
-        "maps/somewhere-district-1.tmx",
-        "maps/somewhere-district-3.tmx",
-        "maps/[Town]VictorianStreets_LPC.tsx",
-        "maps/[Memories]/wonderland-visit-1-maze.tmx",
+        "maps/vehicle-one-more-day.tmx",
+        "maps/[Base]BaseChip_pipo.tsx",
         "maps/[Town]VictorianGarden_LPC.tsx",
+        "maps/[Memories]/wonderland-visit-1-maze.tmx",
+        "maps/[Town]VictorianStreets_LPC.tsx",
+        "maps/somewhere-district-3.tmx",
+        "maps/somewhere-district-1.tmx",
         "maps/somewhere-refuge-row.tmx",
         "maps/[Town]VictorianTenement_LPC.tsx",
         "maps/[Town]VictorianMarket_LPC.tsx",
         "maps/[Town]VictorianAccessories_LPC.tsx",
-        "maps/[Town]VictorianDoorsWindows_LPC.tsx",
-        "maps/[Town]VictorianMansion_LPC.tsx",
-        "maps/[Town]LPC_Ancient_Rome_Architecture.tsx"
+        "maps/[Town]VictorianDoorsWindows_LPC.tsx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx"
