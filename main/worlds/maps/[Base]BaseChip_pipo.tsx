@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.8" tiledversion="1.8.2" name="[Base]BaseChip_pipo" tilewidth="32" tileheight="32" tilecount="1000" columns="8">
+<tileset version="1.9" tiledversion="1.9.2" name="[Base]BaseChip_pipo" tilewidth="32" tileheight="32" tilecount="1000" columns="8">
  <image source="[Base]BaseChip_pipo.png" width="256" height="4000"/>
  <tile id="0">
   <properties>
@@ -4780,16 +4780,19 @@
  <tile id="904">
   <properties>
    <property name="collision" type="bool" value="false"/>
+   <property name="z" type="int" value="2"/>
   </properties>
  </tile>
  <tile id="905">
   <properties>
    <property name="collision" type="bool" value="false"/>
+   <property name="z" type="int" value="2"/>
   </properties>
  </tile>
  <tile id="906">
   <properties>
    <property name="collision" type="bool" value="false"/>
+   <property name="z" type="int" value="2"/>
   </properties>
  </tile>
  <tile id="907">
@@ -4864,17 +4867,17 @@
  </tile>
  <tile id="920">
   <properties>
-   <property name="collision" type="bool" value="false"/>
+   <property name="collision" type="bool" value="true"/>
   </properties>
  </tile>
  <tile id="921">
   <properties>
-   <property name="collision" type="bool" value="false"/>
+   <property name="collision" type="bool" value="true"/>
   </properties>
  </tile>
  <tile id="922">
   <properties>
-   <property name="collision" type="bool" value="false"/>
+   <property name="collision" type="bool" value="true"/>
   </properties>
  </tile>
  <tile id="923">

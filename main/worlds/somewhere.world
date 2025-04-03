@@ -1,0 +1,13 @@
+{
+    "maps": [
+        {
+            "fileName": "maps/somewhere-district-1.tmx",
+            "height": 2080,
+            "width": 1888,
+            "x": 0,
+            "y": 128
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}
