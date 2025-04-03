@@ -1,7 +1,7 @@
 import { RpgEvent, EventData, RpgPlayer } from '@rpgjs/server'
 
 @EventData({
-    name: 'EV-1', 
+    name: 'EV-1',
     hitbox: {
         width: 32,
         height: 16

@@ -1803,44 +1803,4 @@
    <property name="collision" type="bool" value="false"/>
   </properties>
  </tile>
- <tile id="352">
-  <properties>
-   <property name="collision" type="bool" value="false"/>
-  </properties>
- </tile>
- <tile id="353">
-  <properties>
-   <property name="collision" type="bool" value="false"/>
-  </properties>
- </tile>
- <tile id="354">
-  <properties>
-   <property name="collision" type="bool" value="false"/>
-  </properties>
- </tile>
- <tile id="355">
-  <properties>
-   <property name="collision" type="bool" value="false"/>
-  </properties>
- </tile>
- <tile id="356">
-  <properties>
-   <property name="collision" type="bool" value="false"/>
-  </properties>
- </tile>
- <tile id="357">
-  <properties>
-   <property name="collision" type="bool" value="false"/>
-  </properties>
- </tile>
- <tile id="358">
-  <properties>
-   <property name="collision" type="bool" value="false"/>
-  </properties>
- </tile>
- <tile id="359">
-  <properties>
-   <property name="collision" type="bool" value="false"/>
-  </properties>
- </tile>
 </tileset>

@@ -1,13 +1,15 @@
 name = 'Fractured Worlds RPG'
 type = 'rpg'
+port = 62318
 # will only be read by the client
 shortName = 'Fractured Worlds'
 description = 'The JRPG styled companion to the Fractured Worlds campaign.'
 themeColor = '#9900ff'
 
 modules = [
-   '@rpgjs/plugin-emotion-bubbles',
+    '@rpgjs/plugin-emotion-bubbles',
     './main',
+    './render_controller',
     '@rpgjs/title-screen',
     '@rpgjs/save',
     '@rpgjs/mobile-gui',
@@ -16,6 +18,9 @@ modules = [
 ]
 
 
+
+[vite.server]
+    port = 62318
 
 [express]
     port = 62318
@@ -26,10 +31,13 @@ modules = [
 
 [canvas]
     antialias = false
-    autoDensity = true
-    # resolution = 2
+    #autoDensity = true
+    #resolution = 1.1
 
 [start]
-    map = 'simplemap'
-    graphic = 'hero'
+    map = 'somewhere-district-1'
+    # map = 'vehicle-one-more-day'
+    # map = 'wonderland-visit-1-maze'
+    # map = 'simplemap'
+    graphic = 'tero-2'
     hitbox = [16, 16]

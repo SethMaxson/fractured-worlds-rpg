@@ -3,14 +3,26 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "maps/somewhere-district-1.tmx",
+    "activeFile": "maps/[Town]VictorianGarden_LPC.tsx",
     "expandedProjectPaths": [
+        ".",
+        "maps/interiors",
         "maps/somewhere",
-        "maps/somewhere-maps",
         "maps",
-        "."
+        "maps/somewhere-maps",
+        "maps/[Memories]"
     ],
     "fileStates": {
+        "[A]Wall-Up_pipo.tsx": {
+            "scaleInDock": 1
+        },
+        "[Base]BaseChip_pipo.tsx": {
+            "scaleInDock": 1
+        },
+        "maps/[A]CoolSchool_cc0.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.5
+        },
         "maps/[A]Dirt_pipo.tsx": {
             "scaleInDock": 1.5,
             "scaleInEditor": 1
@@ -22,8 +34,8 @@
             "scaleInDock": 1.5
         },
         "maps/[A]LightShadow_pipo.tsx": {
-            "scaleInDock": 1,
-            "scaleInEditor": 1
+            "scaleInDock": 1.5,
+            "scaleInEditor": 4
         },
         "maps/[A]Wall-Up_pipo.tsx": {
             "scaleInDock": 1.5
@@ -35,41 +47,178 @@
             "scaleInDock": 1.5
         },
         "maps/[Base]BaseChip_pipo.tsx": {
+            "dynamicWrapping": false,
             "scaleInDock": 1.5,
+            "scaleInEditor": 4
+        },
+        "maps/[Memories]/wonderland-visit-1-maze.tmx": {
+            "expandedObjectLayers": [
+                6
+            ],
+            "scale": 0.5,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 369,
+                "y": 474
+            }
+        },
+        "maps/[Town]LPC_Ancient_Rome_Architecture.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "maps/[Town]LPC_misc.tsx": {
+            "scaleInDock": 1,
             "scaleInEditor": 1
         },
         "maps/[Town]MageCity_cc0.tsx": {
-            "scaleInDock": 1,
+            "scaleInDock": 1.5,
             "scaleInEditor": 4
+        },
+        "maps/[Town]SNES - Final Fantasy 6 - Town & City Tiles.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "maps/[Town]VictorianAccessories_LPC.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "maps/[Town]VictorianDoorsWindows_LPC.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "maps/[Town]VictorianGarden_LPC.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.5,
+            "scaleInEditor": 0.75
+        },
+        "maps/[Town]VictorianMansion_LPC.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "maps/[Town]VictorianMarket_LPC.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "maps/[Town]VictorianStreets_LPC.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "maps/[Town]VictorianTenement_LPC.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "maps/[Town]colonial.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "maps/interiors/[A]Wall-Up_pipo.tsx": {
+            "scaleInDock": 1
+        },
+        "maps/interiors/[Base]BaseChip_pipo.tsx": {
+            "scaleInDock": 1
+        },
+        "maps/interiors/[Town]MageCity_cc0.tsx": {
+            "scaleInDock": 1
+        },
+        "maps/interiors/somewhere-interior-copper-general-f1.tmx": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 2,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 240.75,
+                "y": 279
+            }
+        },
+        "maps/roofs.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
         },
         "maps/simplemap.tmx": {
             "expandedObjectLayers": [
                 3
             ],
             "scale": 1.2005625,
-            "selectedLayer": 3,
+            "selectedLayer": 0,
             "viewCenter": {
                 "x": 411.05731688271123,
-                "y": 701.3379145192357
+                "y": 700.5049716278827
+            }
+        },
+        "maps/simplemap2.tmx": {
+            "scale": 1.341875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320.07452258966003,
+                "y": 320.44713553796
             }
         },
         "maps/somewhere-district-1.tmx": {
             "expandedObjectLayers": [
                 3
             ],
-            "scale": 2,
+            "scale": 0.33,
+            "selectedLayer": 10,
+            "viewCenter": {
+                "x": 1054.5454545454545,
+                "y": 1334.8484848484848
+            }
+        },
+        "maps/somewhere-district-2.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1400.5,
+                "y": 3064
+            }
+        },
+        "maps/somewhere-district-3.tmx": {
+            "scale": 0.25,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 528,
+                "y": 590
+            }
+        },
+        "maps/somewhere-docks.tmx": {
+            "scale": 0.25,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 944,
-                "y": 1039.75
+                "x": 1614,
+                "y": 472
+            }
+        },
+        "maps/somewhere-east-park.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 343.5,
+                "y": 670
+            }
+        },
+        "maps/somewhere-interior-frost-lords-bounty-f1.tmx": {
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 176.25,
+                "y": 237.5
             }
         },
         "maps/somewhere-maps/frost-lords-bounty-f1.tmx": {
-            "scale": 1.7891666666666666,
+            "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 175.5006986492781,
-                "y": 239.4969725197951
+                "x": 284.5,
+                "y": 292
+            }
+        },
+        "maps/somewhere-refuge-row.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": -208.66666666666663,
+                "y": 383.99999999999994
             }
         },
         "maps/somewhere/frost-lords-bounty-f1.tmx": {
@@ -82,33 +231,53 @@
                 "x": 118.27272727272728,
                 "y": 428.3636363636364
             }
+        },
+        "maps/vehicle-one-more-day.tmx": {
+            "expandedObjectLayers": [
+                6
+            ],
+            "scale": 8,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 341.6875,
+                "y": 618.375
+            }
         }
     },
+    "frame.defaultDuration": 100,
     "last.externalTilesetPath": "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds/maps",
-    "last.imagePath": "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds/maps",
+    "last.imagePath": "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds/maps/lpc-victorian",
     "last.worldFilePath": "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds",
     "loadedWorlds": [
-        "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds/somewhere.world"
+        "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds/somewhere-interiors.world",
+        "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds/somewhere.world",
+        "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds/memories.world"
     ],
-    "map.height": 9,
+    "map.height": 31,
     "map.lastUsedFormat": "tmx",
-    "map.width": 9,
+    "map.width": 31,
     "openFiles": [
         "maps/somewhere-district-1.tmx",
-        "maps/[Base]BaseChip_pipo.tsx",
-        "maps/somewhere-maps/frost-lords-bounty-f1.tmx"
+        "maps/somewhere-district-3.tmx",
+        "maps/[Town]VictorianStreets_LPC.tsx",
+        "maps/[Memories]/wonderland-visit-1-maze.tmx",
+        "maps/[Town]VictorianGarden_LPC.tsx"
     ],
     "project": "fractured-worlds.tiled-project",
     "property.type": "int",
     "recentFiles": [
-        "maps/somewhere-maps/frost-lords-bounty-f1.tmx",
-        "maps/[Base]BaseChip_pipo.tsx",
         "maps/somewhere-district-1.tmx",
-        "maps/[A]LightShadow_pipo.tsx",
-        "maps/[Town]MageCity_cc0.tsx",
-        "maps/somewhere/frost-lords-bounty-f1.tmx",
-        "maps/simplemap.tmx",
-        "maps/[A]Dirt_pipo.tsx"
+        "maps/somewhere-district-3.tmx",
+        "maps/[Town]VictorianStreets_LPC.tsx",
+        "maps/[Memories]/wonderland-visit-1-maze.tmx",
+        "maps/[Town]VictorianGarden_LPC.tsx",
+        "maps/somewhere-refuge-row.tmx",
+        "maps/[Town]VictorianTenement_LPC.tsx",
+        "maps/[Town]VictorianMarket_LPC.tsx",
+        "maps/[Town]VictorianAccessories_LPC.tsx",
+        "maps/[Town]VictorianDoorsWindows_LPC.tsx",
+        "maps/[Town]VictorianMansion_LPC.tsx",
+        "maps/[Town]LPC_Ancient_Rome_Architecture.tsx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx"

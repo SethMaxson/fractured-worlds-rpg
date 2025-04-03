@@ -1,0 +1,13 @@
+{
+    "maps": [
+        {
+            "fileName": "maps/[Memories]/wonderland-visit-1-maze.tmx",
+            "height": 992,
+            "width": 992,
+            "x": 0,
+            "y": -160
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}
