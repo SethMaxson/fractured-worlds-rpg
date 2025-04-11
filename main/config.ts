@@ -24,7 +24,7 @@ const Config = {
     font: {
         default: {
             family: "Pixelify Sans",
-            size: 12
+            size: 14
         }
     },
     game: {
