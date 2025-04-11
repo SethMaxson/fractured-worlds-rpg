@@ -3,7 +3,7 @@ interface DeviceSpecificDisplayConfigurationSettings {
 }
 
 const Config = {
-    debug: true,
+    debug: false,
     devSettings: {
         forceMobile: true,
         showHitboxes: false,
