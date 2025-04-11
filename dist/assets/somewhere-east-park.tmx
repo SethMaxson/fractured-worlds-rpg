@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="21" height="36" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="1">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="21" height="36" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="12">
  <tileset firstgid="1" source="[Town]MageCity_cc0.tsx"/>
  <tileset firstgid="353" source="[Base]BaseChip_pipo.tsx"/>
  <tileset firstgid="1353" source="[A]Wall-Up_pipo.tsx"/>
+ <tileset firstgid="1449" source="Assorted_LPC/lpc-floors/floors.tsx"/>
+ <tileset firstgid="3497" source="[A]LightShadow_pipo.tsx"/>
  <imagelayer id="2" name="Image Layer 1" offsetx="0" offsety="128">
   <image source="vtt-maps/East Park.webp" width="672" height="1024"/>
  </imagelayer>
  <layer id="1" name="Ground" width="21" height="36">
   <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,611,611,611,611,611,611,611,611,611,0,0,0,611,611,611,
-0,0,0,0,0,611,611,611,611,611,611,611,611,611,611,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3202,3202,3202,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3202,3202,3202,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3202,3202,3202,0,0,0,
+0,0,0,0,0,0,611,611,611,611,611,611,611,611,611,3202,3202,3202,611,611,611,
+0,0,0,0,0,611,611,611,611,611,611,611,611,611,611,3202,3202,3202,0,0,0,
 0,0,0,0,0,611,611,611,611,611,611,611,611,611,611,2,2,2,0,0,0,
 0,0,0,0,0,611,611,611,611,611,611,611,611,611,611,2,2,2,0,0,0,
 0,0,0,0,0,0,291,291,291,291,291,291,291,291,212,2,2,2,0,0,0,
 0,0,0,0,0,0,291,236,236,291,291,236,236,236,212,2,2,2,0,0,0,
-0,0,0,0,2,2,333,2,2,333,333,2,2,2,333,2,2,2,2,2,2,
-0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,331,2,2,2,
-0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,10,2,2,2,2,2,
+0,675,675,675,2,2,333,2,2,333,333,2,2,2,333,2,2,2,2,2,2,
+0,675,675,675,2,2,2,2,2,2,2,2,2,2,2,2,2,331,2,2,2,
+0,675,675,675,2,2,2,2,2,2,2,2,2,2,2,10,2,2,2,2,2,
 0,0,0,291,291,291,228,237,2,2,2,238,228,228,228,228,228,228,0,0,0,
 0,0,0,291,292,291,292,212,2,331,2,220,292,291,292,291,291,292,0,0,0,
 0,0,0,291,292,291,292,212,2,2,2,220,292,291,292,291,292,292,0,0,0,
@@ -91,6 +93,16 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3543,3543,3543,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3505,3505,3505,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3505,3513,3513,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3515,0,0,0,0,0,
+0,0,0,0,0,0,3506,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3506,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3506,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3506,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3506,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3515,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -106,18 +118,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,3538,3506,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,3530,3514,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -126,6 +128,68 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="7" name="Object Layer 1">
+  <object id="1" name="start" x="304" y="336">
+   <point/>
+  </object>
+  <object id="2" x="192" y="128" width="288" height="96">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="3" x="576" y="128" width="96" height="160">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4" x="576" y="384" width="96" height="768">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5" x="352" y="1056" width="224" height="96">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="6" x="0" y="1024" width="256" height="128">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="7" x="0" y="384" width="96" height="640">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="8" x="96" y="384" width="96" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="9" x="96" y="0" width="96" height="288">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="10" name="to-district-2" x="96" y="288" width="32" height="96">
+   <properties>
+    <property name="dest" value="somewhere-district-2"/>
+    <property name="destDir" value="l"/>
+    <property name="destX" type="float" value="58"/>
+    <property name="destY" type="float" value="77"/>
+   </properties>
+  </object>
+  <object id="11" name="to-district-3" x="256" y="1088" width="96" height="62">
+   <properties>
+    <property name="dest" value="somewhere-district-3"/>
+    <property name="destDir" value="d"/>
+    <property name="destX" type="float" value="17"/>
+    <property name="destY" type="float" value="4"/>
+    <property name="destZ" type="float" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer id="5" name="Tree Tops" width="21" height="36">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

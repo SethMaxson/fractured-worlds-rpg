@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="11" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="12">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="11" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="12">
  <tileset firstgid="1" source="../[Base]BaseChip_pipo.tsx"/>
  <tileset firstgid="1001" source="../[A]Wall-Up_pipo.tsx"/>
  <tileset firstgid="1097" source="../[Town]MageCity_cc0.tsx"/>
@@ -113,14 +113,14 @@
    <properties>
     <property name="dest" value="somewhere-district-1"/>
     <property name="destX" type="float" value="22"/>
-    <property name="destY" type="float" value="35"/>
+    <property name="destY" type="float" value="38"/>
    </properties>
   </object>
   <object id="3" name="somewhere-cg-exit-e" x="320" y="256" width="32" height="64">
    <properties>
     <property name="dest" value="somewhere-district-1"/>
     <property name="destX" type="float" value="26"/>
-    <property name="destY" type="float" value="27"/>
+    <property name="destY" type="float" value="30"/>
    </properties>
   </object>
   <object id="5" x="0" y="0" width="32" height="480">
@@ -128,12 +128,12 @@
     <property name="collision" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="7" x="320" y="0" width="32" height="256">
+  <object id="7" name="wall-e-1" x="320" y="0" width="32" height="256">
    <properties>
     <property name="collision" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="8" x="320" y="320" width="32" height="160">
+  <object id="8" name="wall-e-2" x="320" y="320" width="32" height="160">
    <properties>
     <property name="collision" type="bool" value="true"/>
    </properties>
@@ -148,7 +148,7 @@
     <property name="collision" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="11" name="THRODEN-1" x="96" y="320">
+  <object id="11" name="throden" x="96" y="320">
    <point/>
   </object>
  </objectgroup>

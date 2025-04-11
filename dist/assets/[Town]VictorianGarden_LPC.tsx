@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.11" tiledversion="1.11.2" name="[Town]VictorianGarden_LPC" tilewidth="32" tileheight="32" tilecount="1024" columns="16">
- <image source="lpc-victorian/victorian-garden.png" width="512" height="2048"/>
+ <image source="Assorted_LPC/lpc-victorian/victorian-garden.png" width="512" height="2048"/>
  <tile id="10">
   <properties>
    <property name="z" type="int" value="1"/>

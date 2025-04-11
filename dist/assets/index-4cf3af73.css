@@ -1,136 +1,32 @@
-/*
-    Window StyleSheet
-*/
-.title[data-v-55946fc4] {
-  position: absolute;
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  margin-top: 50px;
-  font-family: "Arial";
-  font-size: 40px;
-}
-.title h1[data-v-55946fc4] {
-  color: white;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-}
-.background[data-v-55946fc4] {
-  position: absolute;
-  background: url("/fractured-worlds-rpg/dist/assets/default-8b93f4f1.png");
-  width: 100%;
-  height: 100%;
-  display: flex;
-  background-size: cover;
-  z-index: 100;
-}
-.margin-bottom[data-v-55946fc4] {
-  margin-bottom: 50px;
-}
-.full[data-v-55946fc4] {
-  width: 100%;
-}
-.step-title[data-v-55946fc4] {
-  display: flex;
-}/*
-    Window StyleSheet
-*/
-form[data-v-724e64d2] {
-  text-align: center;
-}
-p[data-v-724e64d2] {
-  margin-bottom: 25px;
-}
-button[data-v-724e64d2] {
-  margin-top: 20px;
-}
-input[data-v-724e64d2] {
-  width: 85%;
-}
-.login[data-v-724e64d2] {
-  margin-right: 10px;
-}/*
-    Window StyleSheet
-*/
-form[data-v-a9163a4a] {
-  text-align: center;
-}
-p[data-v-a9163a4a] {
-  margin-bottom: 25px;
-}
-button[data-v-a9163a4a] {
-  margin-top: 20px;
-}
-input[data-v-a9163a4a] {
-  width: 85%;
-}
-.login[data-v-a9163a4a] {
-  margin-right: 10px;
-}
-.slot[data-v-c729d47b] {
-    height: 80px;
-    display: flex;
-    padding: 20px;
-    align-items: center;
-}
-.sprite[data-v-c729d47b] {
-    display: inline-block;
-}
-.help[data-v-c729d47b] {
-    border-bottom: 1px solid white;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-}
-.slot-info[data-v-c729d47b] {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-.slot-info > div[data-v-c729d47b] {
-    display: flex;
-}
-.slot-info > div p[data-v-c729d47b] {
-    margin-left: 15px;
-}
 
-.controls[data-v-b0ad1b2d] {
-    height: 100%;
+.speech-bubble {
     position: absolute;
-    width: 100%;
-    z-index: 200;
+    background: #f0f0f0;
+    border-radius: .4em;
+    padding: 10px;
+    max-width: 400px;
+    text-align: center;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-24px);
 }
-.d-pad[data-v-b0ad1b2d] {
-    width: 70%;
+.speech-bubble:after {
+    content: '';
     position: absolute;
-    height: 100%;
-}
-.actions[data-v-b0ad1b2d] {
-    width: 30%;
-    position: absolute;
-    right: 0;
-    height: 100%;
-}
-.action[data-v-b0ad1b2d] {
-    background-image: url('/fractured-worlds-rpg/dist/assets/flatDark35-21ea2311.png');
-    width: 80px;
-    height: 80px;
-    opacity: 0.8;
-    bottom: 10px;
-    position: absolute;
-    right: 10px;
-}
-.menu-access[data-v-b0ad1b2d] {
-    background-image: url('/fractured-worlds-rpg/dist/assets/flatDark32-85cd8cee.png');
-    width: 48px;
-    height: 48px;
-    opacity: 0.8;
-    top: 10px;
-    position: absolute;
-    right: 10px;
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #f0f0f0;
+    border-bottom: 0;
+    margin-left: -10px;
+    margin-top: -1px;
 }
 /*
     Window StyleSheet
 */
-@keyframes uparrow-6e21b8b8 {
+@keyframes uparrow-85e0311b {
 0% {
     transform: translateY(0);
     opacity: 0.4;
@@ -140,7 +36,7 @@ input[data-v-a9163a4a] {
     opacity: 0.9;
 }
 }
-@keyframes downarrow-6e21b8b8 {
+@keyframes downarrow-85e0311b {
 0% {
     transform: translateY(0);
     opacity: 0.4;
@@ -150,7 +46,7 @@ input[data-v-a9163a4a] {
     opacity: 0.9;
 }
 }
-@keyframes rightarrow-6e21b8b8 {
+@keyframes rightarrow-85e0311b {
 0% {
     transform: translateX(0) rotate(-90deg);
     opacity: 0.4;
@@ -160,7 +56,7 @@ input[data-v-a9163a4a] {
     opacity: 0.9;
 }
 }
-.arrow[data-v-6e21b8b8] {
+.arrow[data-v-85e0311b] {
   border-color: transparent;
   border-style: solid;
   border-width: 0 0.5em;
@@ -172,18 +68,18 @@ input[data-v-a9163a4a] {
   width: 0;
   border-top: 0.5em solid white;
 }
-.up[data-v-6e21b8b8] {
-  animation: uparrow-6e21b8b8 0.6s infinite alternate ease-in-out;
+.up[data-v-85e0311b] {
+  animation: uparrow-85e0311b 0.6s infinite alternate ease-in-out;
 }
-.down[data-v-6e21b8b8] {
-  animation: downarrow-6e21b8b8 0.6s infinite alternate ease-in-out;
+.down[data-v-85e0311b] {
+  animation: downarrow-85e0311b 0.6s infinite alternate ease-in-out;
   margin-bottom: 10px;
 }
-.right[data-v-6e21b8b8] {
-  animation: rightarrow-6e21b8b8 0.6s infinite alternate ease-in-out;
+.right[data-v-85e0311b] {
+  animation: rightarrow-85e0311b 0.6s infinite alternate ease-in-out;
   transform: rotate(-90deg);
 }
-.center[data-v-6e21b8b8] {
+.center[data-v-85e0311b] {
   position: absolute;
   left: calc(50% - 0.25em);
   bottom: 0;
@@ -191,10 +87,13 @@ input[data-v-a9163a4a] {
     Window StyleSheet
 */
 .window-content p, .window-content a {
-  font-family: "Arial";
-  font-size: 25px;
+  font-family: "Pixelify Sans";
+  font-size: 32px;
   color: white;
   margin: 0;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: none;
+  font-smooth: never;
 }
 .window-content input {
   border: 1px solid black;
@@ -250,44 +149,44 @@ input[data-v-a9163a4a] {
 }/*
     Window StyleSheet
 */
-.window[data-v-118d4441] {
+.window[data-v-40de05c4] {
   display: flex;
 }
-.window-content[data-v-118d4441] {
+.window-content[data-v-40de05c4] {
   border: 2.5px solid white;
   border-radius: 5px;
   background: linear-gradient(148deg, rgba(79, 82, 136, 0.7) 0%, rgba(42, 43, 73, 0.7) 100%);
   padding: 20px;
   overflow: hidden;
 }
-.window.top[data-v-118d4441] {
+.window.top[data-v-40de05c4] {
   align-items: flex-start;
 }
-.window.bottom[data-v-118d4441] {
+.window.bottom[data-v-40de05c4] {
   align-items: flex-end;
 }
-.window.bottom-middle[data-v-118d4441] {
+.window.bottom-middle[data-v-40de05c4] {
   align-items: flex-end;
   justify-content: center;
   width: 100%;
 }
-.window.middle[data-v-118d4441] {
+.window.middle[data-v-40de05c4] {
   align-items: center;
   justify-content: center;
 }
-.window-content.full-width[data-v-118d4441] {
+.window-content.full-width[data-v-40de05c4] {
   position: relative;
   width: 100%;
 }
-.fade-enter-active[data-v-118d4441], .fade-leave-active[data-v-118d4441] {
+.fade-enter-active[data-v-40de05c4], .fade-leave-active[data-v-40de05c4] {
   transition: opacity 0.3s;
 }
-.fade-enter[data-v-118d4441], .fade-leave-to[data-v-118d4441] {
+.fade-enter[data-v-40de05c4], .fade-leave-to[data-v-40de05c4] {
   opacity: 0;
 }/*
     Window StyleSheet
 */
-@keyframes cursor-36b53cc0 {
+@keyframes cursor-db6ba2b9 {
 0% {
     opacity: 0.4;
 }
@@ -295,22 +194,26 @@ input[data-v-a9163a4a] {
     opacity: 0.7;
 }
 }
-ul[data-v-36b53cc0] {
+.choice-container[data-v-db6ba2b9] {
+  margin-top: 20px;
+}
+ul[data-v-db6ba2b9] {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-ul li[data-v-36b53cc0] {
+ul li[data-v-db6ba2b9] {
   margin-bottom: 10px;
   position: relative;
+  padding-left: 30px;
 }
-ul li.active[data-v-36b53cc0] {
+ul li.active[data-v-db6ba2b9] {
   display: block;
 }
-ul li > *[data-v-36b53cc0] {
+ul li > *[data-v-db6ba2b9] {
   padding: 10px;
 }
-ul li.active[data-v-36b53cc0]:before {
+ul li.active[data-v-db6ba2b9]:before {
   content: "";
   position: absolute;
   background: #7782ab;
@@ -318,15 +221,15 @@ ul li.active[data-v-36b53cc0]:before {
   height: 100%;
   left: 0px;
   border: 1px solid #9db0c6;
-  animation: cursor-36b53cc0 0.6s infinite alternate ease-in-out;
+  animation: cursor-db6ba2b9 0.6s infinite alternate ease-in-out;
   z-index: 0;
 }
-p[data-v-36b53cc0] {
+p[data-v-db6ba2b9] {
   margin: 0;
   position: relative;
   padding: 10px;
 }
-.dialog[data-v-0ee896f9] {
+.dialog[data-v-f7271c79] {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -335,75 +238,84 @@ p[data-v-36b53cc0] {
     display: flex;
     justify-content: center;
     min-width: 300px;
-    z-index: 101;
+    z-index: 1001;
+}
+.speaker[data-v-f7271c79] {
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    /* border: $window-border;
+    border-radius: $window-border-radius; */
+    /* right: 0;
+    top: 0; */
 }
 
-.bar-full[data-v-45d00ca4] {
+.bar-full[data-v-0a68660d] {
     height: 12px;
     border:2px solid black;
 }
-.bar-content[data-v-45d00ca4] {
+.bar-content[data-v-0a68660d] {
     height: 100%;
 }
-.orange[data-v-45d00ca4] {
+.orange[data-v-0a68660d] {
     background: rgb(251,130,57);
     background: linear-gradient(90deg, rgba(251,130,57,1) 0%, rgba(255,192,46,1) 100%);
 }
-.blue[data-v-45d00ca4] {
+.blue[data-v-0a68660d] {
     background: rgb(0,129,196);
     background: linear-gradient(90deg, rgba(0,129,196,1) 0%, rgba(0,193,242,1) 100%);
 }
-.gray[data-v-45d00ca4] {
+.gray[data-v-0a68660d] {
     background: rgb(68,68,68);
     background: linear-gradient(90deg, rgba(68,68,68,1) 0%, rgba(170,170,170,1) 100%);
 }
-.bar-info[data-v-45d00ca4] {
+.bar-info[data-v-0a68660d] {
     font-family: "lato";
     font-size: 18px;
     color: white;
     margin: 0;
 }
-.param-name[data-v-45d00ca4] {
+.param-name[data-v-0a68660d] {
     color: #71acff;
 }
-.space-between[data-v-45d00ca4] {
+.space-between[data-v-0a68660d] {
     justify-content: space-between;
     display: flex;
 }
 
-.hero[data-v-45f12dbd] {
+.hero[data-v-c34eb9bd] {
     display: flex;
 }
-.space-between[data-v-45f12dbd] {
+.space-between[data-v-c34eb9bd] {
     justify-content: space-between;
     display: flex;
 }
-.face-column[data-v-45f12dbd] {
+.face-column[data-v-c34eb9bd] {
     width: 33%;
 }
-.face-column  > div[data-v-45f12dbd] {
+.face-column  > div[data-v-c34eb9bd] {
     background-position: center;
     background-size: cover;
     width: 150px;
     height: 150px;
 }
-.name-column[data-v-45f12dbd] {
+.name-column[data-v-c34eb9bd] {
      width: 33%;
 }
-.bars-column[data-v-45f12dbd] {
+.bars-column[data-v-c34eb9bd] {
      width: 33%;
 }
-ul[data-v-45f12dbd] {
+ul[data-v-c34eb9bd] {
     list-style: none;
     margin: 0;
 }
-ul li[data-v-45f12dbd] {
+ul li[data-v-c34eb9bd] {
     margin: 10px;
     font-family: "lato";
     font-size: 18px;
     color: white;
 }
-.param-name[data-v-45f12dbd] {
+.param-name[data-v-c34eb9bd] {
     color: #71acff;
 }
 /*
@@ -414,59 +326,59 @@ ul li[data-v-45f12dbd] {
 }/*
     Window StyleSheet
 */
-.menu-row[data-v-506e8ae0] {
+.menu-row[data-v-f4715a62] {
   flex-direction: row;
   display: flex;
   height: 100%;
 }
-.menu-left[data-v-506e8ae0] {
+.menu-left[data-v-f4715a62] {
   width: 320px;
   display: flex;
   flex-direction: column;
   flex-flow: row wrap;
 }
-.menu-choice[data-v-506e8ae0] {
+.menu-choice[data-v-f4715a62] {
   align-items: flex-start;
   width: 100%;
 }
-.menu-left .gold[data-v-506e8ae0] {
+.menu-left .gold[data-v-f4715a62] {
   align-items: flex-end;
   width: 100%;
 }
-.menu-right[data-v-506e8ae0] {
+.menu-right[data-v-f4715a62] {
   width: 100%;
   margin-left: 1px;
 }
-i[data-v-c3768ae4] {
+i[data-v-287f3425] {
     width: 20px;
     height: 20px;
     display: inline-block;
     background-size: cover;
 }
-i.potion[data-v-c3768ae4] {
+i.potion[data-v-287f3425] {
     background-image: url('/fractured-worlds-rpg/dist/assets/potion-ball-e78cb80a.svg')
 }
 
-.row[data-v-bc1f995f] {
+.row[data-v-5302757f] {
    height: 100%;
 }
-.item-menu[data-v-bc1f995f] {
+.item-menu[data-v-5302757f] {
     height: 100%;
 }
-.not-consumable[data-v-bc1f995f] {
+.not-consumable[data-v-5302757f] {
     opacity: 0.5;
 }
-.item[data-v-bc1f995f] {
+.item[data-v-5302757f] {
     margin: 0;
     position: relative;
     padding: 10px;
 }
-.space-between[data-v-bc1f995f] {
+.space-between[data-v-5302757f] {
     justify-content: space-between;
     display: flex;
 }
 
-.back[data-v-a7b6b651] {
+.back[data-v-b6571b17] {
     background-image: url('/fractured-worlds-rpg/dist/assets/back-0ba37d78.png');
     width: 48px;
     height: 48px;
@@ -476,7 +388,7 @@ i.potion[data-v-c3768ae4] {
     right: 10px;
 }
 
-.menu-main[data-v-98ee6de6] {
+.menu-main[data-v-5aacae3b] {
     height: 100%;
     position: absolute;
     width: 100%;
@@ -485,7 +397,7 @@ i.potion[data-v-c3768ae4] {
 /*
     Window StyleSheet
 */
-@keyframes cursor-ef1d8785 {
+@keyframes cursor-ad4c083b {
 0% {
     opacity: 0.4;
 }
@@ -493,79 +405,79 @@ i.potion[data-v-c3768ae4] {
     opacity: 0.7;
 }
 }
-.shop-menu[data-v-ef1d8785] {
+.shop-menu[data-v-ad4c083b] {
   display: flex;
   position: absolute;
   width: 100%;
-  z-index: 100;
+  z-index: 1001;
 }
-.shop-content[data-v-ef1d8785] {
+.shop-content[data-v-ad4c083b] {
   height: calc(100% - 190px);
   display: flex;
 }
-.shop-content > div[data-v-ef1d8785]:first-child {
+.shop-content > div[data-v-ad4c083b]:first-child {
   width: calc(100% - 300px);
   padding: 20px;
   padding-left: 0;
 }
-.shop-content > div[data-v-ef1d8785]:last-child {
+.shop-content > div[data-v-ad4c083b]:last-child {
   width: 300px;
   padding: 10px;
 }
-.shop-info[data-v-ef1d8785] {
+.shop-info[data-v-ad4c083b] {
   border-left: 1px solid white;
 }
-.space-between[data-v-ef1d8785] {
+.space-between[data-v-ad4c083b] {
   justify-content: space-between;
   display: flex;
 }
-hr[data-v-ef1d8785] {
+hr[data-v-ad4c083b] {
   margin: 20px 0px;
 }
-.row[data-v-ef1d8785] {
+.row[data-v-ad4c083b] {
   flex-direction: row;
   display: flex;
 }
-.row > *[data-v-ef1d8785] {
+.row > *[data-v-ad4c083b] {
   flex-direction: column;
   flex-flow: row wrap;
 }
-.row > div[data-v-ef1d8785]:last-child {
+.row > div[data-v-ad4c083b]:last-child {
   text-align: right;
   width: 100%;
   padding: 10px;
 }
-.can-not-buy[data-v-ef1d8785] {
+.can-not-buy[data-v-ad4c083b] {
   opacity: 0.5;
 }
-.item[data-v-ef1d8785] {
+.item[data-v-ad4c083b] {
   margin: 0;
   position: relative;
   padding: 10px;
 }
-.item-quantity[data-v-ef1d8785] {
+.item-quantity[data-v-ad4c083b] {
   display: flex;
   align-items: center;
 }
-.item-quantity > div[data-v-ef1d8785] {
+.item-quantity > div[data-v-ad4c083b] {
   width: 100%;
   padding: 0px 20px;
 }
-.total[data-v-ef1d8785] {
+.total[data-v-ad4c083b] {
   border-top: 1px solid white;
   margin-top: 14px;
   padding: 10px;
   padding-right: 0;
 }
-.cursor[data-v-ef1d8785] {
+.cursor[data-v-ad4c083b] {
   position: relative;
 }
-.cursor > *[data-v-ef1d8785] {
+.cursor > *[data-v-ad4c083b] {
   z-index: 10;
   padding: 10px;
   position: relative;
 }
-.cursor[data-v-ef1d8785]:before {
+.cursor[data-v-ad4c083b]:before {
   content: "";
   position: absolute;
   background: #7782ab;
@@ -573,7 +485,7 @@ hr[data-v-ef1d8785] {
   height: 100%;
   left: 0px;
   border: 1px solid #9db0c6;
-  animation: cursor-ef1d8785 0.6s infinite alternate ease-in-out;
+  animation: cursor-ad4c083b 0.6s infinite alternate ease-in-out;
   z-index: 0;
 }/*
     Window StyleSheet

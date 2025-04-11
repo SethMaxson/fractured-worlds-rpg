@@ -18,10 +18,13 @@ modules = [
 
 
 [vite]
-    # base = "https://sethmaxson.github.io/fractured-worlds-rpg/"
+    # base = "https://sethmaxson.github.io/fractured-worlds-rpg"
 
 [vite.server]
     port = 62318
+
+[compilerOptions.build]
+  serverUrl = "$ENV:VITE_SERVER_URL"
 
 [titleScreen]
     title = 'Fractured Worlds'

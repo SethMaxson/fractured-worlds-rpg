@@ -62288,7 +62288,7 @@ class Gui2 {
       };
     }
     if ((_a = this.clientEngine.envs) == null ? void 0 : _a["VITE_REACT"]) {
-      COMPONENT_LIBRARIES.push(await __vitePreload(() => import("./React-d2bc2358.js"), true ? [] : void 0).then((m2) => m2.ReactGui));
+      COMPONENT_LIBRARIES.push(await __vitePreload(() => import("./React-1fd27714.js"), true ? [] : void 0).then((m2) => m2.ReactGui));
     }
     for (let componentClass of COMPONENT_LIBRARIES) {
       const el = document.createElement("div");
@@ -67400,7 +67400,7 @@ var EmotionBubble = /* @__PURE__ */ ((EmotionBubble2) => {
   EmotionBubble2["Surprise"] = "surprise";
   return EmotionBubble2;
 })(EmotionBubble || {});
-const vitePluginRequire_1743700425867_78632947 = "/assets/bubble-acdc3f6e.png";
+const vitePluginRequire_1744406400134_49931149 = "/assets/bubble-acdc3f6e.png";
 var __defProp$a = Object.defineProperty;
 var __getOwnPropDesc$a = Object.getOwnPropertyDescriptor;
 var __decorateClass$a = (decorators, target, key, kind) => {
@@ -67482,7 +67482,7 @@ function Emote(options2 = {}) {
   };
   EmoteSprite = __decorateClass$a([Spritesheet({
     id: "bubble",
-    image: options2.image || vitePluginRequire_1743700425867_78632947,
+    image: options2.image || vitePluginRequire_1744406400134_49931149,
     width: options2.width || 192,
     height: options2.height || 190,
     framesHeight: options2.framesHeight || 5,
@@ -67521,13 +67521,6 @@ RpgPlayer.prototype.showEmotionBubble = function(emotion) {
 };
 const _rpgjs_plugin_emotion_bubbles = {
   client: RpgClientModule$1
-};
-const _export_sfc = (sfc, props) => {
-  const target = sfc.__vccOpts || sfc;
-  for (const [key, val] of props) {
-    target[key] = val;
-  }
-  return target;
 };
 const name = "rpg-title-screen";
 const _sfc_main$n = {
@@ -67608,6 +67601,13 @@ const _sfc_main$n = {
   }
 };
 const title_vue_vue_type_style_index_0_scoped_55946fc4_lang = "";
+const _export_sfc = (sfc, props) => {
+  const target = sfc.__vccOpts || sfc;
+  for (const [key, val] of props) {
+    target[key] = val;
+  }
+  return target;
+};
 const _hoisted_1$f = { class: "background" };
 const _hoisted_2$c = {
   key: 0,
@@ -70675,8 +70675,8 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   ], 2);
 }
 const NotificationUi = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render]]);
-const vitePluginRequire_1743700425497_64379561 = "/assets/error_002-76810ec3.ogg";
-const vitePluginRequire_1743700425496_40847553 = "/assets/confirmation_002-33b17a9a.ogg";
+const vitePluginRequire_1744406400178_33727306 = "/assets/error_002-76810ec3.ogg";
+const vitePluginRequire_1744406400178_4226257 = "/assets/confirmation_002-33b17a9a.ogg";
 var __defProp$3 = Object.defineProperty;
 var __getOwnPropDesc$3 = Object.getOwnPropertyDescriptor;
 var __decorateClass$3 = (decorators, target, key, kind) => {
@@ -70692,8 +70692,8 @@ let GuiSounds = class {
 };
 GuiSounds = __decorateClass$3([Sound$1({
   sounds: {
-    alert: vitePluginRequire_1743700425496_40847553,
-    error: vitePluginRequire_1743700425497_64379561
+    alert: vitePluginRequire_1744406400178_4226257,
+    error: vitePluginRequire_1744406400178_33727306
   }
 })], GuiSounds);
 var __defProp$2 = Object.defineProperty;
@@ -70927,8 +70927,8 @@ else {
   window.joypad = {};
   a22("Your browser does not support the Gamepad API - https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API");
 }
-const vitePluginRequire_1743700425864_37921269 = "/assets/error_002-76810ec3.ogg";
-const vitePluginRequire_1743700425863_98433406 = "/assets/confirmation_002-33b17a9a.ogg";
+const vitePluginRequire_1744406400226_9819251 = "/assets/error_002-76810ec3.ogg";
+const vitePluginRequire_1744406400226_39848478 = "/assets/confirmation_002-33b17a9a.ogg";
 var __defProp$1 = Object.defineProperty;
 var __getOwnPropDesc$1 = Object.getOwnPropertyDescriptor;
 var __decorateClass$1 = (decorators, target, key, kind) => {
@@ -70944,8 +70944,8 @@ let GamePadSounds = class {
 };
 GamePadSounds = __decorateClass$1([Sound$1({
   sounds: {
-    connect: vitePluginRequire_1743700425863_98433406,
-    disconnect: vitePluginRequire_1743700425864_37921269
+    connect: vitePluginRequire_1744406400226_39848478,
+    disconnect: vitePluginRequire_1744406400226_9819251
   }
 })], GamePadSounds);
 const icon = "/assets/gamepad-e5a5597c.svg";
@@ -71059,40 +71059,61 @@ const _rpgjs_gamepad = {
   client: RpgClientModule2
 };
 export {
+  EVENTS_MAP as $,
   Animation$1 as A,
-  BehaviorSubject$1 as B,
+  createTextVNode as B,
   Class as C,
   Direction as D,
-  EventData as E,
+  EmotionBubble as E,
+  Fragment as F,
+  pushScopeId as G,
+  popScopeId as H,
+  Item as I,
+  resolveDynamicComponent as J,
+  Sound$1 as K,
+  _rpgjs_plugin_emotion_bubbles as L,
   MapData as M,
-  Presets as P,
+  _rpgjs_title_screen as N,
+  _rpgjs_save as O,
+  PrebuiltGui as P,
+  _rpgjs_mobile_gui as Q,
   RpgGui as R,
   Spritesheet as S,
+  Transition as T,
+  _rpgjs_default_gui as U,
+  _rpgjs_gamepad as V,
+  entryPoint as W,
+  map$6 as X,
+  tap as Y,
+  inject as Z,
   _export_sfc as _,
-  RpgModule as a,
-  RpgMap as b,
+  Presets as a,
+  BehaviorSubject$1 as a0,
+  RpgPlugin as a1,
+  RpgRenderer as a2,
+  RpgModule as b,
   createElementBlock as c,
-  Skill as d,
-  Actor as e,
-  Presets$1 as f,
-  Control as g,
-  RpgEvent as h,
-  Move as i,
-  Components as j,
-  State$1 as k,
-  _rpgjs_plugin_emotion_bubbles as l,
-  _rpgjs_title_screen as m,
-  _rpgjs_save as n,
+  RpgMap as d,
+  Skill as e,
+  Actor as f,
+  Presets$1 as g,
+  Control as h,
+  ShapePositioning as i,
+  RpgEvent as j,
+  Components as k,
+  EventData as l,
+  State$1 as m,
+  normalizeClass as n,
   openBlock as o,
-  _rpgjs_mobile_gui as p,
-  _rpgjs_default_gui as q,
-  _rpgjs_gamepad as r,
-  entryPoint as s,
+  normalizeStyle as p,
+  createBlock as q,
+  resolveComponent as r,
+  createBaseVNode as s,
   toDisplayString as t,
-  map$6 as u,
-  tap as v,
-  inject as w,
-  EVENTS_MAP as x,
-  RpgPlugin as y,
-  RpgRenderer as z
+  createVNode as u,
+  createCommentVNode as v,
+  withCtx as w,
+  renderSlot as x,
+  debounceTime as y,
+  renderList as z
 };

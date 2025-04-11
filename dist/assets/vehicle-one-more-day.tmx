@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="23" height="26" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="7">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="23" height="26" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="35">
  <tileset firstgid="1" source="[Base]BaseChip_pipo.tsx"/>
  <tileset firstgid="1001" source="[A]Wall-Up_pipo.tsx"/>
  <tileset firstgid="1097" source="[Town]MageCity_cc0.tsx"/>
@@ -135,7 +135,118 @@
   <object id="5" name="start" x="271.333" y="588">
    <point/>
   </object>
-  <object id="6" name="teleport-menu" x="336" y="624">
+  <object id="6" name="teleport-menu" x="320" y="608">
+   <point/>
+  </object>
+  <object id="19" name="crew-eva" x="256" y="256">
+   <point/>
+  </object>
+  <object id="29" name="crew-ootah" x="64" y="384">
+   <point/>
+  </object>
+  <object id="30" name="crew-hamisfore" x="128" y="448">
+   <point/>
+  </object>
+  <object id="31" name="crew-tommy" x="288" y="736">
+   <point/>
+  </object>
+  <object id="32" name="crew-gloria" x="352" y="736">
+   <point/>
+  </object>
+  <object id="33" name="crew-giuseppe" x="512" y="608">
+   <point/>
+  </object>
+  <object id="34" name="crew-tom-cox" x="256" y="704">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="collisions">
+  <object id="7" x="672" y="224" width="32" height="544">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="8" x="480" y="224" width="32" height="544">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="10" x="512" y="800" width="160" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="11" x="512" y="768" width="32" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="12" x="640" y="768" width="32" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="13" x="416" y="224" width="32" height="544">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="14" x="224" y="224" width="32" height="544">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="15" x="160" y="352" width="32" height="160">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="16" x="32" y="352" width="32" height="160">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="17" x="64" y="352" width="96" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="18" x="64" y="480" width="96" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="20" x="256" y="192" width="32" height="64">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="21" x="384" y="192" width="32" height="64">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="22" x="288" y="192" width="96" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="23" x="256" y="736" width="32" height="64">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="24" x="384" y="736" width="32" height="64">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="25" x="288" y="768" width="96" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="26" name="crew-carrie-ward" x="384" y="288">
    <point/>
   </object>
  </objectgroup>

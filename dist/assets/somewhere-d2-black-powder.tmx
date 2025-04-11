@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="13" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="19">
+ <tileset firstgid="1" source="../Assorted_LPC/lpc-walls/walls.tsx"/>
+ <tileset firstgid="6145" source="../[A]LightShadow_pipo.tsx"/>
+ <tileset firstgid="6233" source="../Assorted_LPC/lpc-floors/floors.tsx"/>
+ <tileset firstgid="8281" source="../Assorted_LPC/lpc_objectspack/Objects/Furniture/Countertops.tsx"/>
+ <tileset firstgid="8317" source="../[Base]BaseChip_pipo.tsx"/>
+ <tileset firstgid="9317" source="../Assorted_LPC/wooden_stairs/[LPC]WoodenStairs.tsx"/>
+ <imagelayer id="3" name="ref" visible="0" offsetx="-1600" offsety="-1888">
+  <image source="../vtt-maps/District 2.webp" width="2112" height="2560"/>
+ </imagelayer>
+ <layer id="1" name="bg" width="13" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,395,586,586,586,586,586,586,586,586,586,394,0,
+0,0,4597,4598,4600,4598,4598,4598,4597,4598,4599,521,0,
+0,0,4661,4662,4664,4662,4662,4662,4661,4662,4663,521,0,
+0,0,4725,4726,4728,4726,4726,4726,4725,4726,4727,521,0,
+0,0,7385,7385,7385,7385,7385,0,0,0,0,521,0,
+0,0,7385,7385,7385,7385,7385,0,0,0,0,521,0,
+0,7386,7385,7385,7385,7385,7385,0,0,0,0,521,0,
+0,7386,7385,7385,7385,7385,7385,7385,7385,7385,7385,521,0,
+0,0,7385,7385,7385,7385,7385,7385,7385,7385,7385,521,0,
+0,0,7385,7385,7385,7385,7385,7385,7385,7385,7385,521,0,
+0,0,7385,7385,7385,7385,7385,7385,7385,7385,7385,521,0,
+0,0,7385,7385,7385,7385,7385,7385,7385,7385,7385,521,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="Ground Details" width="13" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,7426,0,0,
+0,0,0,0,0,0,0,0,0,9621,7426,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,8315,8315,8315,8315,8315,8315,8315,8315,8315,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,9192,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="9" name="mid" width="13" height="15">
+  <properties>
+   <property name="z" type="int" value="0"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,139,9623,9624,0,0,0,
+0,0,0,0,0,0,0,332,9661,9662,0,0,0,
+0,0,0,0,0,0,0,0,0,9617,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,4597,4598,4598,4599,0,0,
+0,0,0,0,0,0,0,4661,4662,4662,4663,0,0,
+0,0,0,0,0,0,0,4725,4726,4726,4727,0,0,
+0,0,8308,8309,8309,8309,8309,8309,8309,8309,8310,0,0,
+0,0,8311,8311,8312,8311,0,8311,8312,8311,8311,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="shadows" width="13" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,6174,6175,6175,6175,6176,0,0,0,0,0,0,
+0,0,6204,0,0,0,0,0,0,0,0,0,0,
+0,0,6187,0,0,0,6186,0,0,0,0,0,0,
+0,0,6182,0,0,0,6180,6175,6175,6175,6176,0,0,
+0,0,6182,0,0,0,0,0,0,0,6184,0,0,
+0,0,6182,0,0,0,0,0,0,0,6184,0,0,
+0,0,6182,0,0,0,0,0,0,0,6184,0,0,
+0,0,6182,0,0,0,0,0,0,0,6192,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="foreground" width="13" height="15">
+  <properties>
+   <property name="z" type="int" value="1"/>
+  </properties>
+  <data encoding="csv">
+0,514,514,514,514,514,514,514,514,514,514,514,0,
+0,395,586,586,586,586,586,139,9577,0,586,394,0,
+0,523,0,0,0,0,0,332,9615,9620,0,521,0,
+0,523,0,0,0,0,0,332,0,0,0,521,0,
+0,523,0,0,0,0,0,329,266,266,266,138,0,
+0,523,0,0,0,0,0,0,0,0,0,521,0,
+0,523,0,0,0,0,0,0,0,0,0,521,0,
+0,523,0,0,0,0,0,0,0,0,0,521,0,
+0,523,0,0,0,0,0,0,0,0,0,521,0,
+0,523,0,0,0,0,0,0,0,9201,9202,521,0,
+0,523,0,0,0,0,0,0,0,9209,9210,521,0,
+0,523,0,0,0,0,0,0,0,9217,9218,521,0,
+0,331,458,458,458,458,458,458,458,458,458,330,0,
+0,514,514,514,514,514,514,514,514,514,514,514,0,
+0,514,514,514,514,514,514,514,514,514,514,514,0
+</data>
+ </layer>
+ <objectgroup id="7" name="Object Layer 1">
+  <object id="1" name="exit-w" x="16" y="192" width="32" height="32">
+   <properties>
+    <property name="dest" value="somewhere-district-2"/>
+    <property name="destDir" value="l"/>
+    <property name="destX" type="float" value="47.5"/>
+    <property name="destY" type="float" value="70"/>
+   </properties>
+  </object>
+  <object id="16" name="start" x="80" y="208">
+   <point/>
+  </object>
+  <object id="17" name="black-powder-frog" x="128" y="312">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="collisions">
+  <object id="3" x="32" y="224" width="32" height="256">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4" x="64" y="128" width="320" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5" x="32" y="128" width="32" height="64">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="6" x="352" y="32" width="32" height="416">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="9" x="64" y="448" width="320" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="13" x="64" y="288" width="288" height="20">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="14" x="224" y="224" width="128" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="15" x="224" y="32" width="32" height="160">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="18" x="224" y="0" width="160" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
