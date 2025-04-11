@@ -25,7 +25,7 @@ const LPCSpritesheetPreset = () => {
         rectHeight: 64,
         spriteRealSize: {
             width: 48,
-            height: 52,
+            height: 54,
         },
         framesWidth: 6,
         framesHeight: 4,
@@ -37,6 +37,15 @@ const LPCSpritesheetPreset = () => {
                 },
                 animations: (direction: Direction) => [stand(direction)]
             },
+            // [Animation.Stand]: {
+            //     offset: {
+            //         x: 0,
+            //         y: 1408,
+            //     },
+            //     framesWidth: 2,
+            //     framesHeight: 4,
+            //     animations: (direction: Direction) => [anim(direction, 2, 75)]
+            // },
             [Animation.Walk]: {
                 offset: {
                     x: 0,

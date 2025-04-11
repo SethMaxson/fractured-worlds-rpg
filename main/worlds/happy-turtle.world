@@ -1,0 +1,13 @@
+{
+    "maps": [
+        {
+            "fileName": "maps/[Lightships]/happy-turtle/happy-turtle-f1.tmx",
+            "height": 1344,
+            "width": 1536,
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}

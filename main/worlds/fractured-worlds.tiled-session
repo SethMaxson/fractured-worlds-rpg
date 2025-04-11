@@ -5,12 +5,17 @@
     },
     "activeFile": "maps/somewhere-district-1.tmx",
     "expandedProjectPaths": [
+        "maps/Assorted_LPC",
+        "maps/Assorted_LPC/LPC Base Assets/tiles",
+        "maps/Assorted_LPC/lpc_Atlas2",
+        "maps",
         ".",
-        "maps/somewhere-maps",
+        "maps/Assorted_LPC/LPC Base Assets",
+        "maps/Assorted_LPC/lpc-floors",
+        "maps/Assorted_LPC/lpc-bricks-v6",
         "maps/somewhere",
-        "maps/[Memories]",
-        "maps/interiors",
-        "maps"
+        "maps/somewhere-maps",
+        "maps/interiors"
     ],
     "fileStates": {
         "[A]Wall-Up_pipo.tsx": {
@@ -18,6 +23,69 @@
         },
         "[Base]BaseChip_pipo.tsx": {
             "scaleInDock": 1
+        },
+        "maps/Assorted_LPC/LPC Base Assets/tiles/[LPC]dirt.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "maps/Assorted_LPC/LPC Base Assets/tiles/[LPC]dirt2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "maps/Assorted_LPC/[Town]Blacksmith-Smelter_LPC.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.5
+        },
+        "maps/Assorted_LPC/alchemy/alchemy-32.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "maps/Assorted_LPC/alchemy/alchemy.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "maps/Assorted_LPC/lpc-bricks-v6/bricks.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "maps/Assorted_LPC/lpc-floors/floors.tsx": {
+            "scaleInDock": 1
+        },
+        "maps/Assorted_LPC/lpc-walls/walls.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 0.75
+        },
+        "maps/Assorted_LPC/lpc_Atlas2/[LPC]build_atlas.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "maps/Assorted_LPC/lpc_Atlas2/[LPC]obj_misk_atlas.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "maps/Assorted_LPC/lpc_objectspack/Objects/Furniture/Chairs, Dining.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "maps/Assorted_LPC/lpc_objectspack/Objects/Furniture/Chairs, Sofa.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "maps/Assorted_LPC/lpc_objectspack/Objects/Furniture/Countertops.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "maps/Assorted_LPC/wooden_stairs/[LPC] Wooden Stairs.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "maps/Assorted_LPC/wooden_stairs/[LPC]WoodenStairs.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "maps/Assorted_cc0/[LPC]scifi_space_rpg_tiles_lpcized.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
         },
         "maps/[A]CoolSchool_cc0.tsx": {
             "scaleInDock": 1,
@@ -51,6 +119,44 @@
             "scaleInDock": 1.5,
             "scaleInEditor": 0.5
         },
+        "maps/[DevRoom]/npc-test.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.75,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 382.6666666666667,
+                "y": 786.6666666666667
+            }
+        },
+        "maps/[Lightships]/happy-turtle/happy-turtle-f1.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 840,
+                "y": 578
+            }
+        },
+        "maps/[Lightships]/whaleship-f4.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 342,
+                "y": 171.33333333333331
+            }
+        },
+        "maps/[Memories]/well-of-memories.tmx": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 0.5,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": -262,
+                "y": 398
+            }
+        },
         "maps/[Memories]/wonderland-visit-1-maze.tmx": {
             "expandedObjectLayers": [
                 6
@@ -58,9 +164,17 @@
             "scale": 0.5,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 369,
-                "y": 474
+                "x": 730,
+                "y": 398
             }
+        },
+        "maps/[Ship]PlayStation - Suikoden 2 - Harbour.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 5.5
+        },
+        "maps/[Ship]SNES - Final Fantasy 6 - Airship Tiles.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
         },
         "maps/[Town]LPC_Ancient_Rome_Architecture.tsx": {
             "scaleInDock": 1,
@@ -104,11 +218,15 @@
             "scaleInEditor": 1
         },
         "maps/[Town]VictorianTenement_LPC.tsx": {
-            "scaleInDock": 2,
+            "scaleInDock": 3,
             "scaleInEditor": 1
         },
         "maps/[Town]colonial.tsx": {
             "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "maps/custom_tilesets/[Somewhere]Walls.tsx": {
+            "scaleInDock": 1,
             "scaleInEditor": 1
         },
         "maps/interiors/[A]Wall-Up_pipo.tsx": {
@@ -120,15 +238,92 @@
         "maps/interiors/[Town]MageCity_cc0.tsx": {
             "scaleInDock": 1
         },
+        "maps/interiors/somewhere-d2-black-powder.tmx": {
+            "expandedObjectLayers": [
+                8,
+                7
+            ],
+            "scale": 0.5,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 678,
+                "y": -182
+            }
+        },
+        "maps/interiors/somewhere-d2-mall.tmx": {
+            "expandedObjectLayers": [
+                8,
+                7
+            ],
+            "scale": 0.5,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 892,
+                "y": 652
+            }
+        },
+        "maps/interiors/somewhere-dist6-little-earth-f1.tmx": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 0.75,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 402.6666666666667,
+                "y": 489.33333333333326
+            }
+        },
+        "maps/interiors/somewhere-dist6-template.tmx": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 1.5,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 208.66666666666669,
+                "y": 345.33333333333337
+            }
+        },
+        "maps/interiors/somewhere-interior-blacksmith-f1.tmx": {
+            "scale": 2,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 249,
+                "y": 265.5
+            }
+        },
         "maps/interiors/somewhere-interior-copper-general-f1.tmx": {
             "expandedObjectLayers": [
                 4
             ],
-            "scale": 2,
+            "scale": 0.75,
             "selectedLayer": 6,
             "viewCenter": {
-                "x": 240.75,
-                "y": 279
+                "x": 21.333333333333314,
+                "y": 457.33333333333326
+            }
+        },
+        "maps/interiors/somewhere-interior-happs-f1.tmx": {
+            "expandedObjectLayers": [
+                8,
+                7
+            ],
+            "scale": 0.5,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 906,
+                "y": 1218
+            }
+        },
+        "maps/interiors/somewhere-interior-info-center-f1.tmx": {
+            "expandedObjectLayers": [
+                7
+            ],
+            "scale": 1,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 2975,
+                "y": 569
             }
         },
         "maps/roofs.tsx": {
@@ -156,45 +351,68 @@
         },
         "maps/somewhere-district-1.tmx": {
             "expandedObjectLayers": [
+                14,
                 3
             ],
-            "scale": 4,
-            "selectedLayer": 10,
+            "scale": 0.75,
+            "selectedLayer": 9,
             "viewCenter": {
-                "x": 1155.375,
-                "y": 1153.25
+                "x": 1488,
+                "y": -481.33333333333326
             }
         },
         "maps/somewhere-district-2.tmx": {
-            "scale": 1,
-            "selectedLayer": 1,
+            "expandedObjectLayers": [
+                9,
+                16
+            ],
+            "scale": 0.75,
+            "selectedLayer": 10,
             "viewCenter": {
-                "x": 1400.5,
-                "y": 3064
+                "x": 1797.333333333333,
+                "y": 1545.3333333333333
             }
         },
         "maps/somewhere-district-3.tmx": {
-            "scale": 0.25,
-            "selectedLayer": 1,
+            "expandedObjectLayers": [
+                5,
+                7
+            ],
+            "scale": 2,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 528,
-                "y": 590
+                "x": 208,
+                "y": 617.5
+            }
+        },
+        "maps/somewhere-district-6.tmx": {
+            "expandedObjectLayers": [
+                6
+            ],
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1207,
+                "y": 420
             }
         },
         "maps/somewhere-docks.tmx": {
             "scale": 0.25,
-            "selectedLayer": 3,
+            "selectedLayer": 9,
             "viewCenter": {
-                "x": 1614,
-                "y": 472
+                "x": 1332,
+                "y": 736
             }
         },
         "maps/somewhere-east-park.tmx": {
-            "scale": 1,
-            "selectedLayer": 1,
+            "expandedObjectLayers": [
+                7
+            ],
+            "scale": 3,
+            "selectedLayer": 4,
             "viewCenter": {
-                "x": 343.5,
-                "y": 670
+                "x": 366,
+                "y": 1111
             }
         },
         "maps/somewhere-interior-frost-lords-bounty-f1.tmx": {
@@ -234,52 +452,54 @@
         },
         "maps/vehicle-one-more-day.tmx": {
             "expandedObjectLayers": [
-                6
+                6,
+                7
             ],
-            "scale": 8,
-            "selectedLayer": 5,
+            "scale": 2,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 341.6875,
-                "y": 618.375
+                "x": 415.5,
+                "y": 560
             }
         }
     },
     "frame.defaultDuration": 100,
-    "last.externalTilesetPath": "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds/maps",
-    "last.imagePath": "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds/maps/lpc-victorian",
+    "last.externalTilesetPath": "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds/maps/Assorted_LPC/LPC-Base-Assets/tiles",
+    "last.imagePath": "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds/maps/Assorted_LPC",
     "last.worldFilePath": "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds",
     "loadedWorlds": [
+        "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds/happy-turtle.world",
+        "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds/memories.world",
         "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds/somewhere-interiors.world",
-        "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds/somewhere.world",
-        "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds/memories.world"
+        "D:/Projects/browser-games/fractured-worlds-rpg/main/worlds/dev-room.world"
     ],
-    "map.height": 31,
+    "map.height": 20,
     "map.lastUsedFormat": "tmx",
-    "map.width": 31,
+    "map.width": 20,
     "openFiles": [
         "maps/somewhere-district-1.tmx",
         "maps/somewhere-district-3.tmx",
-        "maps/[Town]VictorianStreets_LPC.tsx",
-        "maps/[Memories]/wonderland-visit-1-maze.tmx",
-        "maps/[Town]VictorianGarden_LPC.tsx",
-        "maps/[Base]BaseChip_pipo.tsx",
-        "maps/vehicle-one-more-day.tmx"
+        "maps/interiors/somewhere-interior-info-center-f1.tmx",
+        "maps/somewhere-district-6.tmx",
+        "maps/roofs.tsx",
+        "maps/somewhere-east-park.tmx",
+        "maps/somewhere-district-2.tmx"
     ],
     "project": "fractured-worlds.tiled-project",
-    "property.type": "int",
+    "property.type": "bool",
     "recentFiles": [
-        "maps/vehicle-one-more-day.tmx",
-        "maps/[Base]BaseChip_pipo.tsx",
-        "maps/[Town]VictorianGarden_LPC.tsx",
-        "maps/[Memories]/wonderland-visit-1-maze.tmx",
-        "maps/[Town]VictorianStreets_LPC.tsx",
         "maps/somewhere-district-3.tmx",
-        "maps/somewhere-district-1.tmx",
-        "maps/somewhere-refuge-row.tmx",
-        "maps/[Town]VictorianTenement_LPC.tsx",
-        "maps/[Town]VictorianMarket_LPC.tsx",
-        "maps/[Town]VictorianAccessories_LPC.tsx",
-        "maps/[Town]VictorianDoorsWindows_LPC.tsx"
+        "maps/interiors/somewhere-interior-info-center-f1.tmx",
+        "maps/somewhere-district-6.tmx",
+        "maps/somewhere-east-park.tmx",
+        "maps/somewhere-district-2.tmx",
+        "maps/interiors/somewhere-interior-happs-f1.tmx",
+        "maps/interiors/somewhere-d2-mall.tmx",
+        "maps/Assorted_cc0/[LPC]scifi_space_rpg_tiles_lpcized.tsx",
+        "maps/Assorted_LPC/[Town]Blacksmith-Smelter_LPC.tsx",
+        "maps/Assorted_LPC/lpc_objectspack/Objects/Furniture/Countertops.tsx",
+        "maps/[Base]BaseChip_pipo.tsx",
+        "maps/Assorted_LPC/alchemy/alchemy-32.tsx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx"

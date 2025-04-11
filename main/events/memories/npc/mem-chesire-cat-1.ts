@@ -11,7 +11,7 @@ import NpcEvent from '../../_base-classes/npc';
 export default class VillagerEvent extends NpcEvent {
     onInit() {
 		super.onInit();
-        this.setGraphic('chesire-cat');
+        this.setGraphic('wonderland-chesire-cat');
         this.name = "Chesire Cat";
         // this.setComponentsTop(Components.text('{name}', {
         //     fill: '#ffee00'

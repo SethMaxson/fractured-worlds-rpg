@@ -16,7 +16,7 @@ export default class VillagerEvent extends RpgEvent {
         // this.posZ = 50;
         // this.setComponentsTop(Components.text('{name}'));
         this.setComponentsTop(
-            Components.text('{name}', { fill: '#66ffff', fontSize: 12, fontFamily: "Arial Black" } ),
+            Components.text('{name}', { fill: '#66ffff', fontSize: 12, fontFamily: "Pixelify Sans" } ),
             {
                 width: 64,
                 height: 20,

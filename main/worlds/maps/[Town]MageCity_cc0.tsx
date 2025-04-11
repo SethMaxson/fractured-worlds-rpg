@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.9" tiledversion="1.9.2" name="[Town]MageCity_cc0" tilewidth="32" tileheight="32" tilecount="352" columns="8">
- <image source="[Town]MageCity_cc0.png" width="256" height="1408"/>
+<tileset version="1.11" tiledversion="1.11.2" name="[Town]MageCity_cc0" tilewidth="32" tileheight="32" tilecount="352" columns="8">
+ <image source="Assorted_cc0/[Town]MageCity_cc0.png" width="256" height="1408"/>
  <tile id="0">
   <properties>
    <property name="collision" type="bool" value="false"/>

@@ -11,8 +11,50 @@
             "fileName": "maps/interiors/somewhere-interior-copper-general-f1.tmx",
             "height": 480,
             "width": 352,
-            "x": 352,
+            "x": 384,
             "y": 0
+        },
+        {
+            "fileName": "maps/interiors/somewhere-interior-info-center-f1.tmx",
+            "height": 416,
+            "width": 384,
+            "x": 768,
+            "y": 0
+        },
+        {
+            "fileName": "maps/interiors/somewhere-interior-blacksmith-f1.tmx",
+            "height": 576,
+            "width": 352,
+            "x": 1152,
+            "y": 0
+        },
+        {
+            "fileName": "maps/interiors/somewhere-dist6-little-earth-f1.tmx",
+            "height": 960,
+            "width": 672,
+            "x": 1536,
+            "y": 0
+        },
+        {
+            "fileName": "maps/interiors/somewhere-interior-happs-f1.tmx",
+            "height": 512,
+            "width": 448,
+            "x": 2208,
+            "y": 0
+        },
+        {
+            "fileName": "maps/interiors/somewhere-d2-black-powder.tmx",
+            "height": 480,
+            "width": 416,
+            "x": 2208,
+            "y": 608
+        },
+        {
+            "fileName": "maps/interiors/somewhere-d2-mall.tmx",
+            "height": 1312,
+            "width": 1056,
+            "x": 2624,
+            "y": 608
         }
     ],
     "onlyShowAdjacentMaps": false,

@@ -11,7 +11,7 @@ import NpcEvent from '../../_base-classes/npc';
 export default class VillagerEvent extends NpcEvent {
     onInit() {
 		super.onInit();
-        this.setGraphic('hedge-knight');
+        this.setGraphic('wonderland-hedge-knight');
         this.name = "Hedge Knight";
         this.setComponentsTop(Components.text('{name}', {
             fill: '#ffee00'
@@ -160,6 +160,6 @@ export default class VillagerEvent extends NpcEvent {
 		];
         
         // await this.showTextFromMinecraftDialog(player, scenes);
-		await this.speak(player, "Hail, traveler! I'm an friendly, overly trusting knight who doesn't seem to realize that literally every obstacle adventurers face is bigger than I am.");
+		await this.speak(player, "Hail, traveler! I'm a friendly, overly trusting knight who doesn't seem to realize that literally every obstacle adventurers face is bigger than I am.");
     }
 } 

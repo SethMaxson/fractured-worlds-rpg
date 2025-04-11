@@ -4,6 +4,8 @@ const { RMSpritesheet } = Presets
 
 @Spritesheet({
     ...RMSpritesheet(1, 1),
+    anchor: [0.2, 0.5],
+    pivot: [0, 0.5],
     scale: [4/15],
     spriteRealSize: {
         width: 45,

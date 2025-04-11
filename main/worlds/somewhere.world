@@ -4,8 +4,8 @@
             "fileName": "maps/somewhere-district-3.tmx",
             "height": 1184,
             "width": 1024,
-            "x": 1888,
-            "y": 800
+            "x": 2144,
+            "y": 1152
         },
         {
             "fileName": "maps/somewhere-docks.tmx",
@@ -19,11 +19,11 @@
             "height": 2624,
             "width": 1984,
             "x": 0,
-            "y": -2240
+            "y": -2592
         },
         {
             "fileName": "maps/somewhere-district-1.tmx",
-            "height": 2080,
+            "height": 2336,
             "width": 1888,
             "x": 0,
             "y": 128
@@ -41,6 +41,13 @@
             "width": 1056,
             "x": 2688,
             "y": -320
+        },
+        {
+            "fileName": "maps/somewhere-district-6.tmx",
+            "height": 3136,
+            "width": 1728,
+            "x": 2016,
+            "y": -3232
         }
     ],
     "onlyShowAdjacentMaps": false,

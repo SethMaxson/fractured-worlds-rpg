@@ -10,10 +10,8 @@ import TeleportDestinations from '../../lists/teleport-destinations';
 })
 export default class VillagerEvent extends RpgEvent {
     onInit() {
-        // this.setGraphic('female');
+        this.setGraphic('ancient-crystal');
         this.name = 'Exit Memory';
-        // this.posZ = 50;
-        // this.setComponentsTop(Components.text('{name}'));
         this.setComponentsTop(Components.text('{name}', {
             fill: '#66ffff'
         }));

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.9" tiledversion="1.9.2" name="[Town]Colonial" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
- <image source="[Town]colonial.png" width="1024" height="1024"/>
+<tileset version="1.11" tiledversion="1.11.2" name="[Town]Colonial" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+ <image source="Assorted_LPC/[Town]colonial.png" width="1024" height="1024"/>
  <wangsets>
   <wangset name="Terrains" type="corner" tile="-1">
    <wangcolor name="House_Brick_Red" color="#ff0000" tile="33" probability="1"/>

@@ -1,45 +1,78 @@
-import { RpgEvent, RpgPlayer } from '@rpgjs/server'
+import { RpgEvent, RpgPlayer, RpgShape } from '@rpgjs/server'
 import { DialogOptions } from '@rpgjs/server/lib/Gui/DialogGui';
 import { HitBox, HitType } from '@rpgjs/types';
+import { EmotionBubble } from '@rpgjs/plugin-emotion-bubbles'
+import Config from '../../config';
+import { Utils } from '../../common/utils';
 
 interface IMinecraftDialogObject {
     scene_tag: string;
     npc_name?: string;
     text: string;
-    buttons: { text: string, value?: string[]}[];
+    buttons?: { text: string, value?: string[]}[];
 }
 
 
 export default class NpcEvent extends RpgEvent {
+    occupation?: string;
+    _isMale: boolean = true;
+    _isInsideInteractShape = false;
+
     onInit() {
-        const debug = false;
         const map = this.getCurrentMap();
 
-        if (!debug || !map) {
+        if (!Config.debug || !map) {
             return;
         }
-
-
-        // create a shape to highlight it
-        const id = 'seq' + Math.round(Math.random() * 1000000).toString();
-        const shape = this.getCurrentMap()?.createShape(
-            {
-                x: this.hitbox.pos.x,
-                y: this.hitbox.pos.y,
-                width: this.hitbox.w,
-                height: this.hitbox.h,
-                name: id,
-                hitType: HitType.Box,
-                properties: {
-                    color: '#ff0000'
-                }
-            } as HitBox
-        );
-        this.attachShape(shape);
-        setTimeout(() => {
-            map.removeShape(id);
-        }, 1000);
+        
+        if (Config.devSettings.showHitboxes) {
+            // create a shape to highlight it
+            const id = 'seq-debug-' + Math.round(Math.random() * 1000000).toString();
+            const shape = this.getCurrentMap()?.createShape(
+                {
+                    x: this.hitbox.pos.x,
+                    y: this.hitbox.pos.y,
+                    width: this.hitbox.w,
+                    height: this.hitbox.h,
+                    name: id,
+                    hitType: HitType.Box,
+                    properties: {
+                        color: '#ff0000'
+                    }
+                } as HitBox
+            );
+            this.attachShape(shape);
+            // setTimeout(() => {
+            //     map.removeShape(id);
+            // }, 5000);
+        }
     }
+
+    //#region Properties
+    get isFemale(): boolean { return !this._isMale; }
+    set isFemale(value: boolean) { this._isMale = !value; }
+    get isMale(): boolean { return this._isMale; }
+    set isMale(value: boolean) { this._isMale = value; }
+    //#endregion Properties
+
+    //#region Event Handlers
+    async onInShape(shape: RpgShape) {
+        this.showEmotionBubble(EmotionBubble.Exclamation);
+        
+
+        if (Utils.isShapeObjectPlayerRadius(shape)) {
+            this._isInsideInteractShape = true;
+        }
+    }
+
+    async onOutShape(shape: RpgShape) {
+        if (Utils.isShapeObjectPlayerRadius(shape)) {
+            this._isInsideInteractShape = false;
+        }
+    }
+    //#endregion Event Handlers
+
+    //#region Dialog Stuff
 
     /**
      * Say something to the specified player.
@@ -98,7 +131,7 @@ export default class NpcEvent extends RpgEvent {
     }
 
     private async _showMinecraftDialogScene(player: RpgPlayer, dialog: IMinecraftDialogObject, speaker?: string | null, options?: DialogOptions | undefined) {
-        const possibleChoices = dialog.buttons.map(b => { return {text: b.text, value: b.value && b.value[0] || "none" } });
+        const possibleChoices = dialog.buttons? dialog.buttons.map(b => { return {text: b.text, value: b.value && b.value[0] || "none" } }) : [];
 
         const choice = await player.showChoices(
             this._formatDialogString(dialog.text, speaker),
@@ -112,7 +145,10 @@ export default class NpcEvent extends RpgEvent {
     private _getDialogOptions(options?: DialogOptions | undefined): DialogOptions {
         const dialogOptions: DialogOptions = options || {};
         dialogOptions.talkWith ||= this;
+        dialogOptions.typewriterEffect = Config.dialog.typewriterEffect;
 
         return dialogOptions;
     }
+
+    //#endregion Dialog Stuff
 } 
