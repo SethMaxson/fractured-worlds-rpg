@@ -16,7 +16,7 @@
 }
 .background[data-v-55946fc4] {
   position: absolute;
-  background: url("/assets/default-8b93f4f1.png");
+  background: url("/fractured-worlds-rpg/dist/assets/default-8b93f4f1.png");
   width: 100%;
   height: 100%;
   display: flex;
@@ -110,7 +110,7 @@ input[data-v-a9163a4a] {
     height: 100%;
 }
 .action[data-v-b0ad1b2d] {
-    background-image: url('/assets/flatDark35-21ea2311.png');
+    background-image: url('/fractured-worlds-rpg/dist/assets/flatDark35-21ea2311.png');
     width: 80px;
     height: 80px;
     opacity: 0.8;
@@ -119,7 +119,7 @@ input[data-v-a9163a4a] {
     right: 10px;
 }
 .menu-access[data-v-b0ad1b2d] {
-    background-image: url('/assets/flatDark32-85cd8cee.png');
+    background-image: url('/fractured-worlds-rpg/dist/assets/flatDark32-85cd8cee.png');
     width: 48px;
     height: 48px;
     opacity: 0.8;
@@ -410,7 +410,7 @@ ul li[data-v-45f12dbd] {
     Window StyleSheet
 */
 .hero-face .face-column > div {
-  background-image: url("/assets/face-392cc7ff.png");
+  background-image: url("/fractured-worlds-rpg/dist/assets/face-392cc7ff.png");
 }/*
     Window StyleSheet
 */
@@ -444,7 +444,7 @@ i[data-v-c3768ae4] {
     background-size: cover;
 }
 i.potion[data-v-c3768ae4] {
-    background-image: url('/assets/potion-ball-e78cb80a.svg')
+    background-image: url('/fractured-worlds-rpg/dist/assets/potion-ball-e78cb80a.svg')
 }
 
 .row[data-v-bc1f995f] {
@@ -467,7 +467,7 @@ i.potion[data-v-c3768ae4] {
 }
 
 .back[data-v-a7b6b651] {
-    background-image: url('/assets/back-0ba37d78.png');
+    background-image: url('/fractured-worlds-rpg/dist/assets/back-0ba37d78.png');
     width: 48px;
     height: 48px;
     opacity: 0.8;
