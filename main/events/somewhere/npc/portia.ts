@@ -111,7 +111,7 @@ export default class VillagerEvent extends NpcEvent {
 			},
 			{
 				"scene_tag": "portia_chat_city_rumors",
-				"text": "Why're you asking me directly? You too cheap to buy my §o§lfree§r paper or something?\n\nWait... You know your letters, right? If not, scratch my little outburst there.",
+				"text": "Why're you asking me directly? You too cheap to buy my <em>§lfree§r</em> paper or something?\n\nWait... You know your letters, right? If not, scratch my little outburst there.",
 				"buttons": [
 					{
 						"text": "[back]",

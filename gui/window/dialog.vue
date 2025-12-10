@@ -1,7 +1,8 @@
 <template>
     <window :position="position" :fullWidth="fullWidth" class="dialog" @click="tryClose">
-        <p class="speaker" v-if="speaker">{{ speaker }}</p>
-        <p>{{ msg }}</p>
+        <p class="speaker" v-if="speakerName && speakerName.length > 0">{{ speakerName }}</p>
+        <!-- <p>{{ msg }}</p> -->
+        <p v-html="msg"></p>
         <choices :choices="choices" @selected="close" v-if="isChoice" />
         <Arrow direction="down" :center="true" v-else-if="!autoClose" />
     </window>
@@ -20,12 +21,26 @@ export default {
     data() {
         return {
             typing: false,
-            msg: ''
+            msg: '',
+            cleanedInputMessage: '',
+            speakerName: ''
         }
     },
     async mounted() {
         let interval;
         this.rpgEngine.controls.stopInputs()
+        let baseMessage: string = this.handleMessagePrep(this.message);
+        this.speakerName = this.speaker;
+
+        // Prep speaker name for display
+        if (this.message.includes("|:|")) {
+            let msgDat = this.message.split("|:|");
+            this.speakerName = msgDat[0];
+            baseMessage = msgDat[msgDat.length-1];
+        }
+        
+        // this.cleanedInputMessage = baseMessage.replace(/\n/ig, " ").replace(/§./ig, "");
+        this.cleanedInputMessage = baseMessage.replace(/\n/ig, "<br/>").replace(/§./ig, "");
         if (!this.isChoice && !this.autoClose) {
             this.obsKeyPress = this.rpgKeypress.subscribe(({ control }) => {
                 if (control && control.actionName == Control.Action) {
@@ -39,20 +54,20 @@ export default {
                 // The typing effect was skipped
                 clearInterval(interval);
             }
-            else if (index >= this.message.length) {
+            else if (index >= this.cleanedInputMessage.length) {
                 this.typing = false;
                 clearInterval(interval);
             } else {
-                this.msg = this.msg + this.message[index];
+                this.msg = this.msg + this.cleanedInputMessage[index];
                 index++;
             }
         }
         if (!this.typewriterEffect) {
-            this.msg = this.message;
+            this.msg = this.cleanedInputMessage;
         }
         else {
             this.typing = true;
-            interval = setInterval(typewriter, 10);
+            interval = setInterval(typewriter, 5);
         }
     },
     computed: {
@@ -62,15 +77,25 @@ export default {
     },
     methods: {
         close(indexSelect) {
-            // If the message hasn't been displayed yet, interperet the keypress as a command to show it all.
+            // If the message hasn't been displayed yet, interpret the keypress as a command to show it all.
             if (this.typing) {
-                this.msg = this.message;
+                this.msg = this.handleMessagePrep(this.message);
                 this.typing = false;
                 return;
             }
 
             this.rpgGuiClose('rpg-dialog', indexSelect);
             this.rpgEngine.controls.listenInputs();
+        },
+        handleMessagePrep(rawString: string): string {
+            let messageString = rawString;
+            // Prep speaker name for display
+            if (this.message.includes("|:|")) {
+                let msgDat = this.message.split("|:|");
+                this.speakerName = msgDat[0];
+                messageString = msgDat[msgDat.length-1];
+            }
+            return messageString;
         },
         tryClose() {
             if (!this.isChoice) {
@@ -103,11 +128,14 @@ export default {
 }
 
 .speaker {
-    position: absolute;
+    /* position: absolute;
     left: 0;
     bottom: 100%;
+    z-index: 1002; */
     /* border: $window-border;
     border-radius: $window-border-radius; */
+    border-bottom: 0.1rem solid white;
+    font-style: italic;
     /* right: 0;
     top: 0; */
 }

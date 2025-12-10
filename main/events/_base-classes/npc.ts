@@ -1,9 +1,10 @@
-import { RpgEvent, RpgPlayer, RpgShape } from '@rpgjs/server'
+import { Components, RpgEvent, RpgPlayer, RpgShape } from '@rpgjs/server'
 import { DialogOptions } from '@rpgjs/server/lib/Gui/DialogGui';
 import { HitBox, HitType } from '@rpgjs/types';
 import { EmotionBubble } from '@rpgjs/plugin-emotion-bubbles'
 import Config from '../../config';
 import { Utils } from '../../common/utils';
+import BaseCreatureEvent from './base-creature';
 
 interface IMinecraftDialogObject {
     scene_tag: string;
@@ -12,63 +13,50 @@ interface IMinecraftDialogObject {
     buttons?: { text: string, value?: string[]}[];
 }
 
+interface INpcEventInitConfig {
+    label?: {
+        show?: boolean;
+        textColor?: string;
+    }
+}
 
-export default class NpcEvent extends RpgEvent {
+export default class NpcEvent extends BaseCreatureEvent {
     occupation?: string;
     _isMale: boolean = true;
     _isInsideInteractShape = false;
 
-    onInit() {
-        const map = this.getCurrentMap();
+    onInit(config?: INpcEventInitConfig) {
+        super.onInit();
 
-        if (!Config.debug || !map) {
-            return;
-        }
-        
-        if (Config.devSettings.showHitboxes) {
-            // create a shape to highlight it
-            const id = 'seq-debug-' + Math.round(Math.random() * 1000000).toString();
-            const shape = this.getCurrentMap()?.createShape(
+        if (config?.label?.show) {
+            this.setComponentsTop(
+                Components.text('{name}', { fill: config.label.textColor || '#80ff80', fontSize: Config.font.default.size, fontFamily: Config.font.default.family } ),
                 {
-                    x: this.hitbox.pos.x,
-                    y: this.hitbox.pos.y,
-                    width: this.hitbox.w,
-                    height: this.hitbox.h,
-                    name: id,
-                    hitType: HitType.Box,
-                    properties: {
-                        color: '#ff0000'
-                    }
-                } as HitBox
+                    // width: 64,
+                    // height: 16,
+                    // marginTop: 5,
+                    marginLeft: 0,
+                    marginRight: 0,
+                    // marginBottom: 10
+            }
             );
-            this.attachShape(shape);
-            // setTimeout(() => {
-            //     map.removeShape(id);
-            // }, 5000);
         }
-    }
 
-    //#region Properties
-    get isFemale(): boolean { return !this._isMale; }
-    set isFemale(value: boolean) { this._isMale = !value; }
-    get isMale(): boolean { return this._isMale; }
-    set isMale(value: boolean) { this._isMale = value; }
-    //#endregion Properties
+
+        const map = this.getCurrentMap();
+    }
 
     //#region Event Handlers
     async onInShape(shape: RpgShape) {
-        this.showEmotionBubble(EmotionBubble.Exclamation);
-        
-
         if (Utils.isShapeObjectPlayerRadius(shape)) {
-            this._isInsideInteractShape = true;
+            this.showEmotionBubble(EmotionBubble.Exclamation);
         }
+        await super.onInShape(shape);
+        
     }
 
     async onOutShape(shape: RpgShape) {
-        if (Utils.isShapeObjectPlayerRadius(shape)) {
-            this._isInsideInteractShape = false;
-        }
+        await super.onOutShape(shape);
     }
     //#endregion Event Handlers
 
@@ -82,22 +70,61 @@ export default class NpcEvent extends RpgEvent {
      * @param options Configure the dialog GUI settings.
      */
     async speak(player: RpgPlayer, message: string, speaker?: string | null, options?: DialogOptions | undefined) {
-        await player.showText(
+        return await player.showText(
             this._formatDialogString(message, speaker),
             this._getDialogOptions(options)
         );
     }
 
+    /**
+     * Say something to the specified player.
+     * @param player Who is this NPC talking to?
+     * @param message What is this NPC saying?
+     * @param speaker Who is actually doing the speaking? '' for no name display.
+     * @param options Configure the dialog GUI settings.
+     * @returns true if 'Yes', false if 'No'
+     */
+    async speakYesOrNo(player: RpgPlayer, message: string, speaker?: string | null): Promise<boolean> {
+        const choice = await player.showChoices(
+            this._formatDialogString(message, speaker),
+            [
+                {
+                    text: "Yes",
+                    value: "y",
+                },
+                {
+                    text: "No",
+                    value: "n",
+                }
+            ]
+        );
+
+        return choice && choice.value == "y" || false;
+    }
+
+    // //TODO: either finish or delete this copy pasta from @rpgjs/server/src/GuiManager.ts
+    // doText(player: RpgPlayer, msg: string, options: DialogOptions = {}): Promise<any> {
+    //     const gui = new DialogGui(<any>player)
+    //     this._gui[gui.id] = gui
+    //     return gui.openDialog(msg, options)
+    // }
+
     async showTextFromMinecraftDialog(player: RpgPlayer, scenes: IMinecraftDialogObject[], speaker?: string | null, options?: DialogOptions | undefined) {
         let choice = await this._showMinecraftDialogScene(player, scenes[0], speaker, options);
 
         while (choice && choice.value != "none") {
-            let filtered = scenes.filter(s => s.scene_tag == choice?.value);
-            if (filtered.length == 0) {
-                console.log(`unable to find scene: ${choice.value}`);
-                return;
+            if (/shop|openShop|open_shop|openstore|open_store|store|openTrade|open_trade|trade/i.test(choice.value)) {
+                await this.openTrade(player);
+                choice = await this._showMinecraftDialogScene(player, scenes[0], speaker, options);
             }
-            choice = await this._showMinecraftDialogScene(player, filtered[0], speaker, options);
+            else {let filtered = scenes.filter(s => s.scene_tag == choice?.value);
+                if (filtered.length == 0) {
+                    console.log(`unable to find scene: ${choice.value}`);
+                    return;
+                }
+                choice = await this._showMinecraftDialogScene(player, filtered[0], speaker, options);
+            }
+            
         }
     }
 
@@ -127,7 +154,7 @@ export default class NpcEvent extends RpgEvent {
             name = this.name;
         }
         
-        return name + ': ';
+        return name + '|:|';
     }
 
     private async _showMinecraftDialogScene(player: RpgPlayer, dialog: IMinecraftDialogObject, speaker?: string | null, options?: DialogOptions | undefined) {
@@ -148,6 +175,10 @@ export default class NpcEvent extends RpgEvent {
         dialogOptions.typewriterEffect = Config.dialog.typewriterEffect;
 
         return dialogOptions;
+    }
+
+    async openTrade(player: RpgPlayer) {
+        return;
     }
 
     //#endregion Dialog Stuff

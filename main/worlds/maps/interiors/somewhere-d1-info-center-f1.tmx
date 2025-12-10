@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="13" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="20">
+ <tileset firstgid="1" source="../[A]Wall-Up_pipo.tsx"/>
+ <tileset firstgid="97" source="../Assorted_LPC/lpc-floors/floors.tsx"/>
+ <tileset firstgid="2145" source="../[A]LightShadow_pipo.tsx"/>
+ <tileset firstgid="2233" source="../Assorted_LPC/lpc-walls/walls.tsx"/>
+ <tileset firstgid="8377" source="../Assorted_LPC/wooden_stairs/[LPC]WoodenStairs.tsx"/>
+ <tileset firstgid="9973" source="../[Town]colonial.tsx"/>
+ <tileset firstgid="10997" source="../Assorted_LPC/lpc_Atlas2/[LPC]obj_misk_atlas.tsx"/>
+ <tileset firstgid="12021" source="../[Town]VictorianStreets_LPC.tsx"/>
+ <tileset firstgid="13557" source="../Assorted_LPC/lpc_objectspack/Objects/Furniture/[LPC]Chairs_Dining.tsx"/>
+ <tileset firstgid="13717" source="../Assorted_LPC/lpc_objectspack/Objects/Furniture/Countertops.tsx"/>
+ <tileset firstgid="13753" source="../[Base]BaseChip_pipo.tsx"/>
+ <layer id="1" name="bg" width="13" height="13">
+  <data encoding="csv">
+3287,3478,3478,3478,3478,3478,3478,3478,3478,3286,0,0,0,
+3415,5241,5242,5242,5242,5242,5242,5242,5242,3413,0,0,0,
+3415,5305,5306,5306,5306,5306,5306,5306,5306,3477,3478,3478,3286,
+3415,5369,5370,5370,5306,5306,5306,5306,5306,5243,5242,5241,3413,
+3415,1352,1352,1352,5370,5370,5370,5370,5370,5307,5306,5305,3413,
+3479,1352,1352,1352,1352,1352,1352,1352,1352,5307,1352,5305,3413,
+9978,1352,1352,1352,1352,1352,1352,1352,1352,5372,1352,5369,3413,
+3351,1352,1352,1352,1352,1352,1352,1352,1352,1352,1352,1352,3413,
+3201,1352,1352,1352,1352,1352,1352,1352,1352,1352,1352,1352,3201,
+9979,1352,1352,11917,1352,1352,1352,1352,1352,1352,1352,1352,9981,
+10011,1352,1352,1352,1352,1352,1352,1352,1352,1352,1352,1352,10013,
+10011,4113,4114,4115,1352,1352,1352,1352,1352,1352,1352,1352,10013,
+10043,3366,3366,3366,3366,3366,3366,1352,3366,3366,3366,3366,10045
+</data>
+ </layer>
+ <imagelayer id="2" name="ref" visible="0" offsetx="-992" offsety="-128">
+  <image source="../vtt-maps/District 1.webp" width="1952" height="2144"/>
+ </imagelayer>
+ <layer id="5" name="Ground Details" width="13" height="13">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,11363,11140,11363,11140,0,0,0,0,0,
+0,0,0,0,11395,11395,11172,11395,0,0,0,0,0,
+0,0,0,0,11204,11427,11204,11204,0,0,2228,0,0,
+2224,0,0,0,0,0,13663,0,0,0,2222,0,0,
+0,0,0,0,0,13750,13751,13752,0,0,2230,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,2224,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,2221,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="Ground Shadows" width="13" height="13">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2153,0,0,0,0,
+0,0,0,0,0,0,0,0,2153,0,0,0,0,
+0,0,0,2186,2145,2145,2145,2145,2153,0,0,0,0,
+0,8312,0,2184,0,0,0,0,2153,0,0,0,0,
+0,8312,0,2184,2174,2175,2175,2175,2176,0,2153,0,0,
+2152,8312,0,2184,2182,0,0,0,2184,0,2200,0,0,
+0,8312,0,2184,2182,0,0,0,2180,2170,2180,2176,0,
+0,8312,0,2192,2182,0,0,0,0,0,0,2184,0,
+0,0,0,0,2190,2173,0,0,0,0,0,2184,0,
+0,8312,2180,2176,2182,2179,0,0,0,0,0,2184,0,
+0,0,0,0,2174,0,0,0,0,0,0,2184,0,
+0,2149,2149,2149,2149,2149,2149,2200,2149,2149,2149,2149,0
+</data>
+ </layer>
+ <layer id="4" name="Furniture" width="13" height="13">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,14581,0,14580,0,14581,0,14580,14047,0,0,0,0,
+0,14589,0,14588,0,14589,0,14588,14055,0,0,0,0,
+0,0,0,12485,11363,11140,11363,11140,14055,0,14580,0,0,
+0,0,0,12535,11395,11395,11172,11395,14055,0,14588,0,0,
+0,0,0,12535,11204,11427,11204,11204,0,0,0,0,0,
+0,0,0,12535,0,13744,13745,13746,0,0,0,0,0,
+0,0,0,12535,0,13679,0,0,0,0,0,0,0,
+0,0,12503,12551,0,0,13664,0,0,0,0,0,0,
+0,0,12503,12519,11730,0,0,0,0,0,0,0,0,
+0,0,0,12565,11764,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Walls" width="13" height="13">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="7" name="Object Layer 1">
+  <object id="1" name="exit-n" x="320" y="160" width="32" height="32">
+   <properties>
+    <property name="dest" value="somewhere-district-1"/>
+    <property name="destDir" value="u"/>
+    <property name="destPoint" value="somewhere-ic-enter-n"/>
+   </properties>
+  </object>
+  <object id="2" name="exit-s" x="224" y="384" width="32" height="32">
+   <properties>
+    <property name="dest" value="somewhere-district-1"/>
+    <property name="destDir" value="d"/>
+    <property name="destPoint" value="somewhere-ic-enter-s"/>
+   </properties>
+  </object>
+  <object id="3" name="exit-w" x="0" y="288" width="32" height="32">
+   <properties>
+    <property name="dest" value="somewhere-district-1"/>
+    <property name="destDir" value="l"/>
+    <property name="destPoint" value="somewhere-ic-enter-w"/>
+   </properties>
+  </object>
+  <object id="11" name="berty" x="208" y="200">
+   <point/>
+  </object>
+  <object id="12" name="jerry" x="288" y="256">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="collisions">
+  <object id="4" x="384" y="224" width="32" height="192">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5" x="32" y="0" width="96" height="128">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="6" x="0" y="32" width="32" height="256">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="7" x="0" y="320" width="32" height="96">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="8" x="32" y="352" width="96" height="64">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="9" x="128" y="384" width="96" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="10" x="256" y="384" width="128" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="13" x="124" y="96" width="4" height="192">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="14" x="124" y="335" width="4" height="17">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="15" x="128" y="350" width="30" height="2">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="16" x="86" y="284" width="38" height="4">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="17" x="352" y="64" width="64" height="160">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="18" x="288" y="0" width="32" height="224">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="19" x="128" y="0" width="128" height="168">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

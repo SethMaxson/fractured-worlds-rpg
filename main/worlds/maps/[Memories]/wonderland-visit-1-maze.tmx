@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="31" height="31" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="11">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="31" height="31" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="12">
  <tileset firstgid="1" source="../[Town]VictorianGarden_LPC.tsx"/>
  <tileset firstgid="1025" source="../[Base]BaseChip_pipo.tsx"/>
  <tileset firstgid="2025" source="../[A]Dirt_pipo.tsx"/>
@@ -180,7 +180,7 @@
 </data>
  </layer>
  <objectgroup id="6" name="Object Layer 1">
-  <object id="1" name="start" x="480" y="64">
+  <object id="1" name="start" x="512" y="64">
    <point/>
   </object>
   <object id="2" name="key-h4" type="locker-key" x="464" y="160">
@@ -189,7 +189,7 @@
   <object id="3" name="Mr-Salt-Page" type="blues-clues-page" x="448" y="752">
    <point/>
   </object>
-  <object id="4" name="memory-exit" x="576" y="64">
+  <object id="4" name="memory-exit" x="512" y="32" visible="0">
    <point/>
   </object>
   <object id="5" name="mem-chesire-cat-1" x="160" y="704">
@@ -219,6 +219,14 @@
   <object id="10" type="wall" x="618" y="192" width="12" height="128">
    <properties>
     <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="11" name="return-to-memory-hub" x="448" y="0" width="128" height="16">
+   <properties>
+    <property name="dest" value="well-of-memories"/>
+    <property name="destDir" value="d"/>
+    <property name="destX" type="float" value="3"/>
+    <property name="destY" type="float" value="3"/>
    </properties>
   </object>
  </objectgroup>

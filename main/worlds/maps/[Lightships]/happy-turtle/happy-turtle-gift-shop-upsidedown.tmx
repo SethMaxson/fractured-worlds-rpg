@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="12" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="6">
+ <tileset firstgid="1" source="../../Assorted_LPC/lpc-floors/floors.tsx"/>
+ <tileset firstgid="2049" source="../../Assorted_LPC/lpc-walls/walls.tsx"/>
+ <tileset firstgid="8193" source="../../custom_tilesets/[A]BouncingArrows.tsx"/>
+ <tileset firstgid="8313" source="../../Assorted_LPC/lpc_objectspack/Objects/Furniture/[LPC]Sofas_Formal.tsx"/>
+ <tileset firstgid="8521" source="../../Assorted_LPC/lpc_objectspack/Objects/Furniture/Countertops.tsx"/>
+ <tileset firstgid="8557" source="../../custom_tilesets/scene_specific/happy-turtle-gift-shop.tsx"/>
+ <imagelayer id="5" name="ref">
+  <image source="../../vtt-maps/happy-turtle-gift-shop.png" width="384" height="512"/>
+ </imagelayer>
+ <layer id="1" name="Ground &amp; BG" width="12" height="16">
+  <data encoding="csv">
+8557,8557,8557,8582,8561,8561,8561,8561,8591,8557,8557,8557,
+8557,8557,8582,8572,5270,5270,5270,5270,8577,8591,8557,8557,
+8557,8582,8572,5271,5335,2562,2562,5333,5269,8577,8591,8557,
+8557,8594,5271,5335,5399,2562,2562,5397,5333,5269,8603,8557,
+8557,8594,5335,5399,1514,1514,1514,1514,5397,5333,8603,8557,
+8557,8594,5399,1514,1417,8622,8623,1417,1514,5397,8603,8557,
+8557,8594,8631,1514,1417,8634,8635,1417,1514,1514,8603,8557,
+8557,8594,8643,1417,1417,8646,8647,1417,1417,1514,8603,8557,
+8557,8594,8643,1417,1417,8658,8659,1417,1417,1514,8603,8557,
+8557,8666,8643,1417,1417,8670,8671,1417,1417,1514,8675,8557,
+8557,8678,8643,1417,1417,8682,8683,1417,1417,1514,8687,8557,
+8557,8690,8643,1417,1417,8694,8695,1417,1417,1514,8699,8557,
+8557,8702,8717,1514,1514,8706,8707,1514,1514,8720,8711,8557,
+8557,8557,8702,8716,8717,1187,1188,8720,8721,8711,8557,8557,
+8557,8557,8557,8557,8702,8557,8557,8711,8557,8557,8557,8557,
+8557,8557,8557,8557,8557,8557,8557,8557,8557,8557,8557,8557
+</data>
+ </layer>
+ <layer id="6" name="Ground Details" width="12" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,8533,0,0,0,0,0,0,0,0,
+0,0,0,8525,0,0,0,0,0,0,0,0,
+0,0,0,8525,0,0,0,0,0,0,0,0,
+0,0,8549,8542,0,0,0,0,0,0,0,0,
+0,0,8555,8556,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,8451,8452,0,0,8451,8452,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Foreground 1" width="12" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,8208,8208,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,8203,8203,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="Object Layer 1">
+  <object id="1" name="exit-n" x="160" y="96" width="64" height="32">
+   <properties>
+    <property name="dest" value=""/>
+    <property name="destDir" value="u"/>
+    <property name="destPoint" value="to-happy-turtle"/>
+   </properties>
+  </object>
+  <object id="2" name="to-ht-main" x="160" y="416" width="64" height="32">
+   <properties>
+    <property name="dest" value="ht-f1"/>
+    <property name="destDir" value="u"/>
+    <property name="destPoint" value="exit-s"/>
+   </properties>
+  </object>
+  <object id="3" name="Martin" x="64" y="224">
+   <point/>
+  </object>
+  <object id="5" name="bouncer" x="96" y="352">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

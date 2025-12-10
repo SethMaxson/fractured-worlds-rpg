@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="72" height="66" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="3">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="72" height="66" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="6">
  <tileset firstgid="1" source="[Base]BaseChip_pipo.tsx"/>
  <tileset firstgid="1001" source="[Town]LPC_Ancient_Rome_Architecture.tsx"/>
  <imagelayer id="9" name="voidspace" parallaxx="0.25" parallaxy="0.25" repeatx="1" repeaty="1">
@@ -300,13 +300,27 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="12" name="Object Layer 1">
+  <object id="4" name="to-d1" x="1184" y="32" width="128" height="32">
+   <properties>
+    <property name="dest" value="somewhere-district-1"/>
+    <property name="destDir" value="u"/>
+    <property name="destPoint" value="to-docks"/>
+    <property name="destX" type="float" value="29"/>
+    <property name="destY" type="float" value="67"/>
+   </properties>
+  </object>
+  <object id="5" name="start" x="1232" y="128">
+   <point/>
+  </object>
+ </objectgroup>
  <objectgroup id="7" name="collisions">
-  <object id="1" name="wall-1" type="wall" x="1312" y="0" width="992" height="160">
+  <object id="1" x="1312" y="0" width="992" height="160">
    <properties>
     <property name="collision" type="bool" value="true"/>
    </properties>
   </object>
-  <object id="2" name="wall-2" type="wall" x="0" y="0" width="1184" height="160">
+  <object id="2" x="0" y="0" width="1184" height="160">
    <properties>
     <property name="collision" type="bool" value="true"/>
    </properties>

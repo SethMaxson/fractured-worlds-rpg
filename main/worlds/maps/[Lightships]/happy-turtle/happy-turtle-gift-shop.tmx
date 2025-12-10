@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="12" height="17" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="6">
+ <tileset firstgid="1" source="../../Assorted_LPC/lpc-floors/floors.tsx"/>
+ <tileset firstgid="2049" source="../../Assorted_LPC/lpc-walls/walls.tsx"/>
+ <tileset firstgid="8193" source="../../custom_tilesets/[A]BouncingArrows.tsx"/>
+ <tileset firstgid="8313" source="../../Assorted_LPC/lpc_objectspack/Objects/Furniture/[LPC]Sofas_Formal.tsx"/>
+ <tileset firstgid="8521" source="../../Assorted_LPC/lpc_objectspack/Objects/Furniture/Countertops.tsx"/>
+ <tileset firstgid="8557" source="../../custom_tilesets/scene_specific/happy-turtle-gift-shop.tsx"/>
+ <tileset firstgid="8749" source="../../[A]LightShadow_pipo.tsx"/>
+ <tileset firstgid="8837" source="../../[Town]VictorianDoorsWindows_LPC.tsx"/>
+ <imagelayer id="5" name="ref" offsetx="0" offsety="64">
+  <image source="../../vtt-maps/happy-turtle-gift-shop.png" width="384" height="512"/>
+ </imagelayer>
+ <layer id="1" name="Ground &amp; BG" width="12" height="17">
+  <data encoding="csv">
+8557,8557,8557,8557,8557,8557,8557,8557,8557,8557,8557,8557,
+8557,8557,8582,8561,8561,8561,8561,8561,8561,8591,8557,8557,
+8557,8582,8572,5270,5270,5270,5270,5270,5270,8577,8591,8557,
+8557,8594,5271,5334,5335,1187,1188,5333,5334,5269,8603,8557,
+8557,8594,5335,5398,5399,1219,1220,5397,5398,5333,8603,8557,
+8557,8594,5399,1514,1514,1073750530,1073750531,1514,1514,5397,8603,8557,
+8557,8594,8643,1417,1417,1073750518,1073750519,1417,1417,1514,8603,8557,
+8557,8594,8643,1417,1417,1073750506,1073750507,1417,1417,1514,8603,8557,
+8557,8594,8643,1417,1417,1073750494,1073750495,1417,1417,1514,8603,8557,
+8557,8678,8643,1417,1417,1073750482,1073750483,1417,1417,1514,8675,8557,
+8557,8678,8643,1417,1417,1073750470,1073750471,1417,1417,1514,8675,8557,
+8557,8678,8631,1514,1417,1073750458,1073750459,1417,1514,1514,8675,8557,
+8557,8702,8717,1514,1417,1073750446,1073750447,1417,1514,8720,8711,8557,
+8557,8557,8702,8717,1514,1514,1514,1514,8720,8711,8557,8557,
+8557,8557,8557,8702,8717,1514,1514,8720,8711,8557,8557,8557,
+8557,8557,8557,8557,8702,8557,8557,8711,8557,8557,8557,8557,
+8557,8557,8557,8557,8557,8557,8557,8557,8557,8557,8557,8557
+</data>
+ </layer>
+ <layer id="6" name="Ground Details" width="12" height="17">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,8762,8762,0,0,0,0,0,
+0,0,0,8323,8324,8208,8208,8323,8324,0,0,0,
+0,0,0,8339,8340,0,0,8339,8340,0,0,0,
+0,0,0,0,0,0,0,8529,8550,0,0,0,
+0,0,0,0,0,0,0,8526,8556,0,0,0,
+0,0,0,0,0,0,0,8526,0,0,0,0,
+0,0,0,0,0,0,0,8541,8549,8549,0,0,
+0,0,0,0,0,0,0,8554,8555,8555,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Foreground 1" width="12" height="17">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,8863,8864,8864,8865,0,0,0,0,
+0,0,0,0,8895,0,0,8897,0,0,0,0,
+0,0,0,0,8895,0,0,8897,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,8825,8825,0,0,0,0,0,
+0,0,0,0,0,8263,8263,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="Object Layer 1">
+  <object id="1" name="exit-s" x="160" y="480" width="64" height="32">
+   <properties>
+    <property name="dest" value=""/>
+    <property name="destDir" value="d"/>
+    <property name="destPoint" value="to-happy-turtle"/>
+   </properties>
+  </object>
+  <object id="2" name="to-ht-main" x="160" y="128" width="64" height="32">
+   <properties>
+    <property name="dest" value="ht-f1"/>
+    <property name="destDir" value="u"/>
+    <property name="destPoint" value="exit-s"/>
+    <property name="landDir" value="d"/>
+   </properties>
+  </object>
+  <object id="3" name="Martin" x="256" y="256">
+   <point/>
+  </object>
+  <object id="5" name="bouncer" x="128" y="192">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

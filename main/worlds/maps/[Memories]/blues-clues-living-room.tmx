@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="7" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="7">
+ <tileset firstgid="1" source="../Assorted_LPC/lpc-floors/floors.tsx"/>
+ <tileset firstgid="2049" source="../Assorted_LPC/lpc-walls/walls.tsx"/>
+ <tileset firstgid="8193" source="../[Base]BaseChip_pipo.tsx"/>
+ <tileset firstgid="9193" source="../[A]LightShadow_pipo.tsx"/>
+ <layer id="1" name="BG" width="20" height="7">
+  <data encoding="csv">
+4482,4482,4482,4482,4482,4482,4482,4482,4482,4482,4482,4482,4482,4482,4482,4482,4482,4482,4482,4482,
+4546,4546,4546,4546,4546,4546,4546,4546,4546,4546,4546,4546,4546,4546,4546,4546,4546,4546,4546,4546,
+4610,4610,4610,4610,4610,4610,4610,4610,4610,4610,4610,4610,4610,4610,4610,4610,4610,4610,4610,4610,
+730,730,730,730,730,730,730,730,730,730,730,730,730,730,730,730,730,730,730,730,
+730,730,730,730,730,730,730,730,730,730,730,730,730,730,730,730,730,730,730,730,
+730,730,730,730,730,730,730,730,730,730,730,730,730,730,730,730,730,730,730,730,
+0,0,0,0,0,0,0,0,0,1825,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Mid" width="20" height="7">
+  <properties>
+   <property name="z" type="int" value="0"/>
+  </properties>
+  <data encoding="csv">
+8054,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8054,
+8118,0,0,0,0,0,0,0,8821,0,0,8791,0,0,0,0,0,0,0,8118,
+8182,0,0,0,0,0,0,0,8829,9005,0,8799,0,0,0,0,0,0,0,8182,
+0,0,0,0,0,0,0,0,8939,9013,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Foreground" width="20" height="7">
+  <properties>
+   <property name="z" type="int" value="1"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,9249,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="Object Layer 1">
+  <object id="1" name="start" x="288" y="160">
+   <point/>
+  </object>
+  <object id="2" name="return-to-memory-hub" x="288" y="208" width="32" height="16">
+   <properties>
+    <property name="dest" value="well-of-memories"/>
+    <property name="destDir" value="d"/>
+    <property name="destX" type="float" value="15"/>
+    <property name="destY" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="3" x="232" y="200" width="160" height="16">
+   <text pixelsize="12" color="#ffffff" kerning="0">Return to Well of Memories</text>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="collisions">
+  <object id="4" x="0" y="0" width="640" height="96">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5" x="256" y="96" width="32" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="6" x="288" y="96" width="32" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

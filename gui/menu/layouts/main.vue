@@ -30,24 +30,32 @@ export default {
     },
     inject: ['rpgCurrentPlayer', 'rpgKeypress', 'rpgEngine', 'rpgStage', 'rpgGuiClose', 'rpgGui'],
     data() {
-        const menu = [{
-            text: 'Items',
-            value: 'item',
-            layout: 'ItemsLayout'
-        },
-        /*  {
-            text: 'Skills',
-            value: 'skill'
-        },  {
-            text: 'Equipment',
-            value: 'equipment',
-            layout: 'EquipmentLayout'
-        }, 
-        {
-            text: 'Status',
-            value: 'status',
-            layout: 'StatusLayout'
-        } */]
+        const menu = [
+            {
+                text: 'Items',
+                value: 'item',
+                layout: 'ItemsLayout'
+            },
+            // {
+            //     text: 'Skills',
+            //     value: 'skill'
+            // },
+            // {
+            //     text: 'Equipment',
+            //     value: 'equipment',
+            //     layout: 'EquipmentLayout'
+            // },
+            // {
+            //     text: 'Status',
+            //     value: 'status',
+            //     layout: 'StatusLayout'
+            // }
+            {
+                text: 'Reputation',
+                value: 'reputation',
+                layout: 'ReputationLayout'
+            },
+        ];
         if (!isMMORPG && this.rpgGui.exists('rpg-save')) {
             menu.push({
                 text: 'Save',

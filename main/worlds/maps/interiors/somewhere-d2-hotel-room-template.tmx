@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="11" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="21">
+ <tileset firstgid="1" source="../Assorted_LPC/lpc-walls/walls.tsx"/>
+ <tileset firstgid="6145" source="../[A]LightShadow_pipo.tsx"/>
+ <tileset firstgid="6233" source="../Assorted_LPC/lpc-floors/floors.tsx"/>
+ <tileset firstgid="8281" source="../Assorted_LPC/lpc_objectspack/Objects/Furniture/Countertops.tsx"/>
+ <tileset firstgid="8317" source="../[Base]BaseChip_pipo.tsx"/>
+ <tileset firstgid="9317" source="../Assorted_LPC/wooden_stairs/[LPC]WoodenStairs.tsx"/>
+ <tileset firstgid="10913" source="../[A]Wall-Up_pipo.tsx"/>
+ <imagelayer id="3" name="ref" visible="0" offsetx="-64" offsety="-96">
+  <image source="../vtt-maps/Interiors/hotel-f2.webp" width="416" height="1120"/>
+ </imagelayer>
+ <layer id="1" name="bg" width="11" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,2453,2454,2454,2454,2454,2454,2455,0,0,
+0,0,2517,2518,2518,2518,2518,2518,2519,2456,0,
+0,0,2581,2582,2582,2582,2582,2582,2583,2520,0,
+0,0,7617,7617,7617,7617,7617,7617,7617,2584,0,
+0,2456,7617,0,0,0,0,0,7617,7616,7617,
+0,2520,7617,0,0,0,0,0,7617,0,0,
+0,2584,7617,0,0,0,0,0,7617,0,0,
+7617,7616,7617,0,0,0,0,0,7617,0,0,
+7617,7616,7617,0,0,0,0,0,7617,0,0,
+0,0,7617,7617,7617,7617,7617,7617,7617,0,0,
+0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="ground details" width="11" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="9" name="mid" width="11" height="12">
+  <properties>
+   <property name="z" type="int" value="0"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="shadows" width="11" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,6152,0,0,0,0,0,6159,0,0,
+0,0,6152,0,0,0,0,0,6159,6159,0,
+0,0,6152,0,0,0,0,0,6159,6159,0,
+0,0,6174,6175,6175,6175,6175,6175,6176,6159,0,
+0,6152,6182,0,0,0,0,0,6180,6175,6199,
+0,6152,6182,0,0,0,0,0,0,0,0,
+0,6152,6182,0,0,0,0,0,0,0,0,
+6177,6175,6181,0,0,0,0,0,0,0,0,
+6193,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="foreground" width="11" height="12">
+  <properties>
+   <property name="z" type="int" value="1"/>
+  </properties>
+  <data encoding="csv">
+0,391,582,582,582,582,582,582,582,390,0,
+0,519,0,0,0,0,0,0,0,581,0,
+0,519,0,0,0,0,0,0,0,0,0,
+0,519,0,0,0,0,0,0,0,0,0,
+0,583,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,6215,
+0,0,0,0,0,0,0,0,0,457,0,
+0,0,0,0,0,0,0,0,0,521,0,
+6223,6224,0,0,0,0,0,0,0,521,0,
+6223,6224,0,0,0,0,0,0,0,521,0,
+0,459,0,0,0,0,0,0,0,521,0,
+0,331,458,458,458,458,458,458,458,330,0
+</data>
+ </layer>
+ <objectgroup id="7" name="Object Layer 1">
+  <object id="1" name="exit-w" x="8" y="256" width="32" height="64">
+   <properties>
+    <property name="dest" value="somewhere-d2-hotel-f2-balconies"/>
+    <property name="destDir" value="l"/>
+    <property name="destPoint" value="to-dragon"/>
+   </properties>
+  </object>
+  <object id="16" name="start" x="272" y="176">
+   <point/>
+  </object>
+  <object id="17" name="patron" x="112" y="184">
+   <point/>
+  </object>
+  <object id="19" name="exit-e" x="312" y="160" width="32" height="32">
+   <properties>
+    <property name="dest" value="somewhere-d2-hotel-f2"/>
+    <property name="destDir" value="r"/>
+    <property name="destPoint" value="to-dragon-room"/>
+   </properties>
+  </object>
+  <object id="6" x="288" y="192" width="64" height="192">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="13" x="64" y="352" width="224" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="14" x="288" y="96" width="64" height="64">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="15" x="0" y="96" width="64" height="160">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="18" x="64" y="96" width="224" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="20" x="0" y="320" width="64" height="64">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

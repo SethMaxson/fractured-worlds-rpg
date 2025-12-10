@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="16" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="51">
+ <tileset firstgid="1" source="../../Assorted_LPC/lpc-walls/walls.tsx"/>
+ <tileset firstgid="6145" source="../../Assorted_LPC/lpc-floors/floors.tsx"/>
+ <tileset firstgid="8193" source="../../[A]LightShadow_pipo.tsx"/>
+ <tileset firstgid="8281" source="../../custom_tilesets/[Lightship]Whaleship.tsx"/>
+ <tileset firstgid="12691" source="../../Assorted_LPC/wooden_stairs/[LPC]WoodenStairs.tsx"/>
+ <tileset firstgid="14287" source="../../custom_tilesets/[A]BouncingArrows.tsx"/>
+ <layer id="1" name="bg" width="16" height="9">
+  <data encoding="csv">
+8433,8529,8482,8482,8482,8482,8482,8482,8478,8433,8479,8482,8482,8478,8433,8433,
+8433,8438,5314,5314,5314,5314,5314,5314,8481,8287,8483,1513,1514,8481,8482,8478,
+8433,8438,5378,5378,5378,5378,5378,5378,5316,8431,1516,1577,1578,1514,1515,8432,
+8491,8390,5442,5442,5442,5442,5442,5442,5380,8386,1580,1641,1642,1578,1579,8432,
+8446,8738,8787,8787,8787,8787,8787,8787,5444,8435,1644,7323,7323,1642,1643,8290,
+8442,8397,8787,8787,8787,8787,8787,8787,7323,8435,7323,7323,7323,7323,7323,8436,
+8433,8438,8787,8787,8787,8787,8787,8787,8395,8348,8393,7323,7323,7323,7323,8436,
+8433,8289,8397,7401,8395,8396,8396,8396,8441,8433,7401,7323,7323,8395,8396,8338,
+8433,8433,8433,8433,8433,8433,8433,8433,8433,8433,8396,8396,8396,8441,8433,8433
+</data>
+ </layer>
+ <layer id="4" name="ground shadows &amp; details" width="16" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="mid" width="16" height="9">
+  <properties>
+   <property name="z" type="int" value="0"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="shadows" width="16" height="9">
+  <properties>
+   <property name="z" type="int" value="0"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="foreground" width="16" height="9">
+  <properties>
+   <property name="z" type="int" value="3"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,8386,0,0,0,0,0,0,
+0,14292,0,0,0,0,0,0,0,8435,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,8435,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,14297,0,0,0,0,0,0,14292,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="9" name="Object Layer 1">
+  <object id="5" x="32" y="96" width="224" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="30" name="exit-s" x="96" y="248" width="32" height="32">
+   <properties>
+    <property name="dest" value="vehicle-brightside-f4"/>
+    <property name="destDir" value="s"/>
+    <property name="destPoint" value="to-kitchen"/>
+   </properties>
+  </object>
+  <object id="31" x="32" y="160" width="32" height="64">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="34" x="128" y="224" width="160" height="64">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="35" x="32" y="224" width="64" height="64">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="39" name="exit-e" x="312" y="224" width="32" height="32">
+   <properties>
+    <property name="dest" value="vehicle-brightside-f4"/>
+    <property name="destDir" value="l"/>
+    <property name="destPoint" value="to-pantry"/>
+   </properties>
+  </object>
+  <object id="40" x="288" y="256" width="160" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="41" x="416" y="224" width="64" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="42" x="416" y="128" width="64" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="43" x="352" y="96" width="64" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="44" x="256" y="128" width="96" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="45" x="0" y="96" width="32" height="96">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="46" x="96" y="280" width="32" height="8">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="48" x="256" y="192" width="96" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="49" x="480" y="128" width="32" height="128">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="50" name="exit-w" x="32" y="128" width="16" height="32">
+   <properties>
+    <property name="dest" value="brightside-dining"/>
+    <property name="destDir" value="l"/>
+    <property name="destPoint" value="exit-e"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <imagelayer id="2" name="ref" visible="0" opacity="0.5" offsetx="-1056" offsety="0">
+  <image source="../../vtt-maps/whaleship-blank-f4.webp" width="1568" height="384"/>
+ </imagelayer>
+</map>

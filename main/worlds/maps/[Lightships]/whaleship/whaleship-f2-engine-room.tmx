@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="13" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="91">
+ <tileset firstgid="1" source="../../Assorted_LPC/lpc-walls/walls.tsx"/>
+ <tileset firstgid="6145" source="../../Assorted_LPC/lpc-floors/floors.tsx"/>
+ <tileset firstgid="8193" source="../../[A]LightShadow_pipo.tsx"/>
+ <tileset firstgid="8281" source="../../custom_tilesets/[Lightship]Whaleship.tsx"/>
+ <tileset firstgid="12691" source="../../Assorted_LPC/wooden_stairs/[LPC]WoodenStairs.tsx"/>
+ <tileset firstgid="14287" source="../../custom_tilesets/[A]BouncingArrows.tsx"/>
+ <layer id="1" name="bg" width="13" height="15">
+  <data encoding="csv">
+8433,8433,8433,8433,8433,8433,8445,8433,8433,8433,8433,8433,8433,
+8433,8433,8433,8433,8479,8482,8482,8482,8482,8482,8482,8478,8433,
+8433,8433,8433,8433,8434,8309,8306,8306,8306,8306,8307,8432,8433,
+8433,8433,8479,8482,8483,8358,8355,8355,8355,8355,8356,8432,8433,
+8433,8433,8434,8309,8307,8407,8404,8404,8404,8404,8405,8432,8433,
+8433,8433,8339,8358,8356,8764,8666,8666,8666,8666,8666,8290,8433,
+8433,8433,8438,8407,8405,8718,8666,8666,8666,8666,8666,8436,8433,
+8433,8491,8390,8718,8666,8666,8666,8666,8666,8666,8666,8439,8490,
+8433,8446,8666,8666,8666,8666,8666,8666,8666,8666,8666,8666,8444,
+8433,8442,8397,8865,8666,8666,8666,8666,8666,8666,8666,8666,8444,
+8433,8433,8446,8764,8666,8666,8666,8666,8666,8666,8666,8395,8441,
+8433,8433,8446,8764,8666,8666,8666,8666,8666,8666,8666,8444,8433,
+8433,8433,8446,8764,8666,8666,8666,8666,8666,8666,8666,8444,8433,
+8433,8433,8442,8396,8396,8396,8396,8396,8396,8396,8396,8441,8433,
+8433,8433,8433,8433,8433,8433,8433,8433,8433,8433,8433,8433,8433
+</data>
+ </layer>
+ <layer id="4" name="ground shadows &amp; details" width="13" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="mid" width="13" height="15">
+  <properties>
+   <property name="z" type="int" value="0"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="7" name="shadows" width="13" height="15">
+  <properties>
+   <property name="z" type="int" value="0"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="foreground" width="13" height="15">
+  <properties>
+   <property name="z" type="int" value="3"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,14292,0,0,0,0,0,0,0,0,14347,0,
+0,0,0,0,0,0,0,0,0,0,0,14347,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="9" name="Object Layer 1">
+  <object id="42" x="64" y="416" width="320" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="63" name="exit-e" x="368" y="256" width="32" height="64">
+   <properties>
+    <property name="dest" value="brightside-f2-cargo"/>
+    <property name="destDir" value="r"/>
+    <property name="destPoint" value="exit-w"/>
+   </properties>
+  </object>
+  <object id="66" x="352" y="320" width="64" height="96">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="68" x="32" y="128" width="64" height="128">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="69" x="160" y="128" width="192" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="83" name="exit-w" x="40" y="256" width="32" height="32">
+   <properties>
+    <property name="dest" value="vehicle-brightside-f2"/>
+    <property name="destDir" value="l"/>
+    <property name="destPoint" value="to-engine-room"/>
+   </properties>
+  </object>
+  <object id="85" x="96" y="128" width="64" height="96">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="86" x="352" y="128" width="64" height="128">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="88" x="400" y="256" width="16" height="64">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="89" x="0" y="256" width="40" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="90" x="32" y="288" width="64" height="128">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <imagelayer id="2" name="ref" visible="0" opacity="0.5" offsetx="-448" offsety="96">
+  <image source="../../vtt-maps/whaleship-blank-f2.webp" width="1568" height="384"/>
+ </imagelayer>
+</map>

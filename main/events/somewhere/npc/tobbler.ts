@@ -144,7 +144,7 @@ export default class VillagerEvent extends NpcEvent {
 			{
 				"scene_tag": "tobbler_chat_city_rumors",
 				"npc_name": "",
-				"text": "Oh, yes! I have a very juicy rumor for you!\n\n§o§nThe frog pauses to lick his eye.§r\n\nThis town has many ghosts. You'll probably become one soon, based on the ghost that currently seems to be nibbling on your kidneys.",
+				"text": "Oh, yes! I have a very juicy rumor for you!\n\n<em>§nThe frog pauses to lick his eye.</em>\n\nThis town has many ghosts. You'll probably become one soon, based on the ghost that currently seems to be nibbling on your kidneys.",
 				"buttons": [
 					{
 						"text": "[back]",

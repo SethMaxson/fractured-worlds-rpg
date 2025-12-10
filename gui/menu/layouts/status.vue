@@ -7,9 +7,26 @@
 </template>
 
 <script>
-import Bar from '../../components/bar.vue'
+import Bar from '../../components/bar.vue';
+import { Control } from '@rpgjs/client';
 
 export default {
+    inject: ['rpgCurrentPlayer', 'rpgKeypress', 'rpgSocket'],
+    mounted() {
+         this.obsCurrentPlayer = this.rpgCurrentPlayer.subscribe(({ object }) => {
+           
+        })
+        this.obsKeyPress = this.rpgKeypress.subscribe(({ control }) => {
+            if (!control) return
+            if (control.actionName == Control.Back) {
+                this.$emit('changeLayout', 'MainLayout')
+            }
+        })
+    },
+    unmounted() {
+        this.obsKeyPress.unsubscribe()
+        this.obsCurrentPlayer.unsubscribe()
+    },
     components: {
         Bar
     }

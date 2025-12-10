@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="4">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="9">
  <tileset firstgid="1" source="../Assorted_LPC/lpc-floors/floors.tsx"/>
  <tileset firstgid="2049" source="../[Town]VictorianDoorsWindows_LPC.tsx"/>
  <tileset firstgid="7169" source="../[Base]BaseChip_pipo.tsx"/>
@@ -8,8 +8,8 @@
  <layer id="1" name="bg" width="30" height="15">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,1825,1825,7170,1825,1825,1825,1974,1825,1825,1825,1286,1825,1825,1825,7482,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,0,
-0,1825,1825,7170,1825,1825,1825,1974,1825,1825,1825,1254,1825,1825,1825,7482,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,0,
+0,1825,1825,7170,1825,1825,1825,1974,1825,1825,1825,1286,1825,1825,1825,730,1825,1825,1825,7482,1825,1825,1825,1825,1825,1825,1825,1825,1825,0,
+0,1825,1825,7170,1825,1825,1825,1974,1825,1825,1825,1254,1825,1825,1825,730,1825,1825,1825,7482,1825,1825,1825,1825,1825,1825,1825,1825,1825,0,
 0,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,0,
 0,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,0,
 0,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,1825,0,
@@ -88,10 +88,35 @@
   <object id="2" name="start" x="80" y="304">
    <point/>
   </object>
-  <object id="3" x="96" y="64" width="32" height="16">
+  <object id="3" name="to-wonderland-1" x="96" y="64" width="32" height="16">
    <properties>
     <property name="dest" value="wonderland-visit-1-maze"/>
    </properties>
+  </object>
+  <object id="4" name="to-tmnt-1" x="224" y="64" width="32" height="16">
+   <properties>
+    <property name="dest" value="wonderland-visit-1-maze"/>
+   </properties>
+  </object>
+  <object id="5" name="to-wanta-1" x="352" y="64" width="32" height="16">
+   <properties>
+    <property name="dest" value="rift-wanta"/>
+    <property name="destDir" value="r"/>
+   </properties>
+  </object>
+  <object id="6" name="to-blues-clues-1" x="480" y="64" width="32" height="16">
+   <properties>
+    <property name="dest" value="blues-clues-living-room"/>
+    <property name="destDir" value="u"/>
+   </properties>
+  </object>
+  <object id="7" name="to-oz-1" x="608" y="64" width="32" height="16">
+   <properties>
+    <property name="dest" value="wonderland-visit-1-maze"/>
+   </properties>
+  </object>
+  <object id="8" name="teleport-menu" x="64" y="224">
+   <point/>
   </object>
  </objectgroup>
 </map>

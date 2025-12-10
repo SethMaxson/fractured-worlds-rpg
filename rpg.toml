@@ -43,9 +43,19 @@ modules = [
 
 
 [start]
-    # map = 'somewhere-district-1'
-    map = 'vehicle-one-more-day'
+    # map = 'somewhere-district-01'
+    # map = 'voidspace-layout-1'
+    # map = 'somewhere-d2-hotel-f1'
+    # map = 'somewhere-d2-mall'
+    # map = 'the-oasis-lounge'
+    # map = 'vehicle-one-more-day'
+    # map = 'vehicle-brightside-f4'
+    
     # map = 'wonderland-visit-1-maze'
-    # map = 'npc-test'
+    map = 'npc-test'
+
+    # Best starting map
+    # map = 'brightside-bar'
+
     graphic = 'tero-2'
     hitbox = [16, 16]

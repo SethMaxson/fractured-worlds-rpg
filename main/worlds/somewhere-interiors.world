@@ -1,42 +1,42 @@
 {
     "maps": [
         {
-            "fileName": "maps/somewhere-interior-frost-lords-bounty-f1.tmx",
+            "fileName": "maps/interiors/somewhere-d1-frost-lords-bounty-f1.tmx",
             "height": 480,
             "width": 352,
             "x": 0,
             "y": 0
         },
         {
-            "fileName": "maps/interiors/somewhere-interior-copper-general-f1.tmx",
+            "fileName": "maps/interiors/somewhere-d1-copper-general-f1.tmx",
             "height": 480,
             "width": 352,
             "x": 384,
             "y": 0
         },
         {
-            "fileName": "maps/interiors/somewhere-interior-info-center-f1.tmx",
+            "fileName": "maps/interiors/somewhere-d1-info-center-f1.tmx",
             "height": 416,
             "width": 384,
             "x": 768,
             "y": 0
         },
         {
-            "fileName": "maps/interiors/somewhere-interior-blacksmith-f1.tmx",
+            "fileName": "maps/interiors/somewhere-d1-blacksmith-f1.tmx",
             "height": 576,
             "width": 352,
             "x": 1152,
             "y": 0
         },
         {
-            "fileName": "maps/interiors/somewhere-dist6-little-earth-f1.tmx",
+            "fileName": "maps/interiors/somewhere-d6-little-earth-f1.tmx",
             "height": 960,
             "width": 672,
             "x": 1536,
             "y": 0
         },
         {
-            "fileName": "maps/interiors/somewhere-interior-happs-f1.tmx",
+            "fileName": "maps/interiors/somewhere-d2-happs-f1.tmx",
             "height": 512,
             "width": 448,
             "x": 2208,
@@ -55,6 +55,76 @@
             "width": 1056,
             "x": 2624,
             "y": 608
+        },
+        {
+            "fileName": "maps/interiors/somewhere-d6-monstro-quarter-f1.tmx",
+            "height": 960,
+            "width": 672,
+            "x": 3680,
+            "y": 608
+        },
+        {
+            "fileName": "maps/interiors/somewhere-d1-sheriff-f1.tmx",
+            "height": 736,
+            "width": 384,
+            "x": -32,
+            "y": -772
+        },
+        {
+            "fileName": "maps/interiors/somewhere-d1-doctor-f1.tmx",
+            "height": 768,
+            "width": 640,
+            "x": 352,
+            "y": -772
+        },
+        {
+            "fileName": "maps/interiors/somewhere-d1-explorers-guild-f1.tmx",
+            "height": 512,
+            "width": 512,
+            "x": 1120,
+            "y": -772
+        },
+        {
+            "fileName": "maps/interiors/somewhere-d2-cobbler.tmx",
+            "height": 480,
+            "width": 544,
+            "x": 1632,
+            "y": -772
+        },
+        {
+            "fileName": "maps/interiors/somewhere-d2-temple-f1.tmx",
+            "height": 928,
+            "width": 672,
+            "x": 2080,
+            "y": -932
+        },
+        {
+            "fileName": "maps/interiors/somewhere-d2-hotel-f1.tmx",
+            "height": 1632,
+            "width": 608,
+            "x": 2816,
+            "y": -1220
+        },
+        {
+            "fileName": "maps/interiors/somewhere-d1-restrooms.tmx",
+            "height": 672,
+            "width": 384,
+            "x": 3424,
+            "y": -1220
+        },
+        {
+            "fileName": "maps/interiors/somewhere-d1-public-ovens-kitchen.tmx",
+            "height": 480,
+            "width": 256,
+            "x": 3808,
+            "y": -1220
+        },
+        {
+            "fileName": "maps/interiors/somewhere-d1-public-ovens.tmx",
+            "height": 544,
+            "width": 576,
+            "x": 3840,
+            "y": -1028
         }
     ],
     "onlyShowAdjacentMaps": false,

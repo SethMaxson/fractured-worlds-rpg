@@ -3,9 +3,12 @@ interface DeviceSpecificDisplayConfigurationSettings {
 }
 
 const Config = {
-    debug: false,
+    debug: true,
     devSettings: {
-        forceMobile: true,
+        forceMobile: false,
+        forceZoom: false,
+        displayMobileInputOnDesktop: true,
+        forcedZoomValue: 2,
         showHitboxes: false,
     },
     dialog: {

@@ -1,11 +1,11 @@
-import { RpgPlayer } from '@rpgjs/server'
-import { Class } from '@rpgjs/database'
-import type { ClassOnSet, ClassCanEquip, WeaponInstance, ArmorInstance } from '@rpgjs/database'
-import Fire from '../skills/fire';
+import { RpgPlayer } from "@rpgjs/server"
+import { Class } from "@rpgjs/database"
+import type { ClassOnSet, ClassCanEquip, WeaponInstance, ArmorInstance } from "@rpgjs/database"
+import Fire from "../skills/fire";
 
 @Class({  
-    name: 'Fighter',
-    description: 'A great fighter!',
+    name: "Fighter",
+    description: "A great fighter!",
     skillsToLearn: [
         { level: 5, skill: Fire }
     ],

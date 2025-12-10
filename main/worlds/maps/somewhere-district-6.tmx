@@ -737,14 +737,14 @@
   <object id="1" name="to-some-quarter" x="1088" y="2496" width="32" height="64">
    <properties>
     <property name="dest" value=""/>
-    <property name="destDir" value=""/>
+    <property name="destDir" value="r"/>
     <property name="destX" type="float" value="0"/>
     <property name="destY" type="float" value="0"/>
    </properties>
   </object>
   <object id="2" name="to-little-earth" x="1088" y="1920" width="32" height="64">
    <properties>
-    <property name="dest" value="somewhere-dist6-little-earth-f1"/>
+    <property name="dest" value="somewhere-d6-little-earth-f1"/>
     <property name="destDir" value="r"/>
     <property name="destX" type="float" value="2"/>
     <property name="destY" type="float" value="16"/>
@@ -752,16 +752,14 @@
   </object>
   <object id="3" name="to-monstro-quarter" x="800" y="1792" width="32" height="64">
    <properties>
-    <property name="dest" value=""/>
+    <property name="dest" value="somewhere-d6-monstro-quarter-f1"/>
     <property name="destDir" value="l"/>
-    <property name="destX" type="float" value="0"/>
-    <property name="destY" type="float" value="0"/>
    </properties>
   </object>
   <object id="4" name="to-cloud-quarter" x="800" y="2368" width="32" height="64">
    <properties>
     <property name="dest" value=""/>
-    <property name="destDir" value=""/>
+    <property name="destDir" value="l"/>
     <property name="destX" type="float" value="0"/>
     <property name="destY" type="float" value="0"/>
    </properties>
@@ -769,7 +767,7 @@
   <object id="6" name="to-little-middle-earth" x="1088" y="1280" width="64" height="64">
    <properties>
     <property name="dest" value=""/>
-    <property name="destDir" value=""/>
+    <property name="destDir" value="u"/>
     <property name="destX" type="float" value="0"/>
     <property name="destY" type="float" value="0"/>
    </properties>
@@ -777,7 +775,7 @@
   <object id="7" name="to-little-sea" x="480" y="864" width="32" height="64">
    <properties>
     <property name="dest" value=""/>
-    <property name="destDir" value=""/>
+    <property name="destDir" value="l"/>
     <property name="destX" type="float" value="0"/>
     <property name="destY" type="float" value="0"/>
    </properties>
@@ -785,7 +783,7 @@
   <object id="8" name="to-little-geoss" x="736" y="512" width="32" height="64">
    <properties>
     <property name="dest" value=""/>
-    <property name="destDir" value=""/>
+    <property name="destDir" value="r"/>
     <property name="destX" type="float" value="0"/>
     <property name="destY" type="float" value="0"/>
    </properties>

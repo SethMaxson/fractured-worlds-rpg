@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="33" height="37" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="33" height="37" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="3">
  <tileset firstgid="1" source="[Town]MageCity_cc0.tsx"/>
  <tileset firstgid="353" source="[Base]BaseChip_pipo.tsx"/>
  <tileset firstgid="1353" source="[A]Wall-Up_pipo.tsx"/>
@@ -348,4 +348,17 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="10" name="Object Layer 1">
+  <object id="1" name="start" x="144" y="344">
+   <point/>
+  </object>
+  <object id="2" name="to-east-park" x="32" y="320" width="32" height="64">
+   <properties>
+    <property name="dest" value="somewhere-east-park"/>
+    <property name="destDir" value="l"/>
+    <property name="destX" type="float" value="18"/>
+    <property name="destY" type="float" value="10"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

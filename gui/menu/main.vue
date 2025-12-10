@@ -11,6 +11,7 @@ import ItemsLayout from './layouts/item.vue'
 import StatusLayout from './layouts/status.vue'
 import EquipmentLayout from './layouts/equipment.vue'
 import SaveLayout from './layouts/save.vue'
+import ReputationLayout from './layouts/reputation.vue'
 import BackButton from '../components/back.vue'
 
 export default {
@@ -38,6 +39,7 @@ export default {
         StatusLayout,
         BackButton,
         EquipmentLayout,
+        ReputationLayout,
         SaveLayout
     }
 }

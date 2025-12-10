@@ -112,7 +112,7 @@ export default class VillagerEvent extends NpcEvent {
 			{
 				"scene_tag": "lazy_flower_chat_city_rumors",
 				"npc_name": "",
-				"text": "Sometimes I hear §4weird little feet§r running around when most people are asleep. Do you think that has anything to do with how supplies keep appearing in my §ododa§r's shop?",
+				"text": "Sometimes I hear §4weird little feet§r running around when most people are asleep. Do you think that has anything to do with how supplies keep appearing in my <em>doda</em>'s shop?",
 				"buttons": [
 					{
 						"text": "[back]",
@@ -123,7 +123,7 @@ export default class VillagerEvent extends NpcEvent {
 			{
 				"scene_tag": "lazy_flower_chat_self_what",
 				"npc_name": "",
-				"text": "An optimist? Oh, you mean, like, my species? I'm a §4tabaxi§r, but I think a lot of people call us §4catfolk§r. \"Catfolk\" is descriptive and all, but... it's a little plain, right? Tabaxi is §oway§r better.",
+				"text": "An optimist? Oh, you mean, like, my species? I'm a §4tabaxi§r, but I think a lot of people call us §4catfolk§r. \"Catfolk\" is descriptive and all, but... it's a little plain, right? Tabaxi is <em>way</em> better.",
 				"buttons": [
 					{
 						"text": "[back]",
@@ -134,7 +134,7 @@ export default class VillagerEvent extends NpcEvent {
 			{
 				"scene_tag": "lazy_flower_chat_self_family",
 				"npc_name": "",
-				"text": "My §o§1doda§r runs the forge, and I can tell he loves it. I'm glad he can keep doing what he loves, even at the end of world!\n\nMy §o§1madu§r died when I was little, so it's just me and my §ododa§r.",
+				"text": "My <em>§1doda§r</em> runs the forge, and I can tell he loves it. I'm glad he can keep doing what he loves, even at the end of world!\n\nMy <em>§1madu§r</em> died when I was little, so it's just me and my <em>doda</em>.",
 				"buttons": [
 					{
 						"text": "[back]",
@@ -145,7 +145,7 @@ export default class VillagerEvent extends NpcEvent {
 			{
 				"scene_tag": "lazy_flower_chat_self_homeland",
 				"npc_name": "",
-				"text": "I grew up in the §2City of Canyon Winds§r. It was super warm and sunny - great for napping, but I like it here, too. I get to meet a lot of really strange people, and I get to hear about all kinds of really fun sounding places.\n\nI would §okill§r for a §3Soothebrick§r, though. If you find any–§owhat's the Common term again?§r Catnip! If you find any catnip, I will be your best friend. §lI would help you hide a body§r for some catnip.",
+				"text": "I grew up in the §2City of Canyon Winds§r. It was super warm and sunny - great for napping, but I like it here, too. I get to meet a lot of really strange people, and I get to hear about all kinds of really fun sounding places.\n\nI would <em>kill</em> for a §3Soothebrick§r, though. If you find any–<em>what's the Common term again?</em> Catnip! If you find any catnip, I will be your best friend. §lI would help you hide a body§r for some catnip.",
 				"buttons": [
 					{
 						"text": "[back]",

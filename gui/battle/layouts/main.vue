@@ -19,6 +19,7 @@
 import Bar from '../../components/bar.vue'
 
 export default {
+    inject: ['rpgEngine', 'rpgStage', 'rpgGui', 'rpgCurrentPlayer', 'rpgScene'],
     data() {
         return {
             actions: [
@@ -29,8 +30,8 @@ export default {
         }
     },
     mounted() {
-         this.$rpgScene().active = false
-         this.$rpgScene().selectEnemy = (index) => {
+         this.rpgScene().active = false
+         this.rpgScene().selectEnemy = (index) => {
              this.$rpgSocket.emit('gui.interaction', {
                 guiId: 'rpg-battle',
                 name: 'attack',
@@ -39,11 +40,11 @@ export default {
                 }
             })
          }
-        this.$rpgSocket.on('battle.damage', (data) => {
-            this.$rpgScene().addEffect(data)
-        })
+        // this.$rpgSocket.on('battle.damage', (data) => {
+        //     this.rpgScene().addEffect(data)
+        // })
         this.$rpgKeypress = ((name) => {
-            return !this.$rpgScene().active
+            return !this.rpgScene().active
         })
     },
     methods: {
@@ -54,9 +55,9 @@ export default {
                     this.$emit('changeLayout', 'ItemsLayout')
                     break;
                 case 'attack':
-                    this.$rpgScene().pointerActive = true
+                    this.rpgScene().pointerActive = true
                     setTimeout(() => {
-                        this.$rpgScene().listenInputs() 
+                        this.rpgScene().listenInputs() 
                     }, 200)
                     break;
                 default:
@@ -66,7 +67,7 @@ export default {
     },
     computed: {
         player() {
-            return this.$rpgPlayer()
+            return this.rpgCurrentPlayer;
         }
     },
     components: {

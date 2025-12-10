@@ -9,7 +9,7 @@ import NpcEvent from '../../_base-classes/npc';
         height: 32
     }
 })
-export default class VillagerEvent extends NpcEvent {
+export default class BerrakEvent extends NpcEvent {
     onInit() {
 		super.onInit();
         this.setGraphic('sw-berrak');
@@ -145,7 +145,7 @@ export default class VillagerEvent extends NpcEvent {
 			{
 				"scene_tag": "chat_city_rumors",
 				"npc_name": "",
-				"text": "You want rumors, eh?\n\nI heard a rumor that a bloke who kept annoyin' a local smith spontaneously caught §o\"painful punch in the jaw\"§r disease. Nasty stuff.",
+				"text": "You want rumors, eh?\n\nI heard a rumor that a bloke who kept annoyin' a local smith spontaneously caught <em>\"painful punch in the jaw\"</em> disease. Nasty stuff.",
 				"buttons": [
 					{
 						"text": "[back]",

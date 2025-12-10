@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="8" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="11">
+ <tileset firstgid="1" source="../Assorted_LPC/lpc-walls/walls.tsx"/>
+ <tileset firstgid="6145" source="../Assorted_LPC/lpc-floors/floors.tsx"/>
+ <tileset firstgid="8193" source="../Assorted_LPC/lpc_Atlas2/[LPC]obj_misk_atlas.tsx"/>
+ <tileset firstgid="9217" source="../custom_tilesets/[Interior]Furniture.tsx"/>
+ <tileset firstgid="9409" source="../Assorted_LPC/lpc_objectspack/Objects/Furniture/Countertops.tsx"/>
+ <tileset firstgid="9445" source="../custom_tilesets/[A]BouncingArrows.tsx"/>
+ <layer id="1" name="bg" width="8" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,3409,3410,3410,3410,3410,3411,0,
+0,3473,3474,3474,3474,3474,3475,0,
+0,3537,3538,3538,3538,3538,3539,0,
+0,7395,7396,7395,7396,7395,7396,0,
+0,7427,7428,7427,7428,7427,7428,0,
+0,7395,7396,7395,7396,7395,7396,0,
+0,7427,7428,7427,7428,7427,7428,0,
+0,7395,7396,7395,7396,7395,7396,0,
+0,7427,7428,7427,7428,7427,7428,0,
+0,7395,7396,7395,7396,7395,7396,0,
+0,0,0,0,7428,0,0,0,
+514,514,514,514,514,514,514,514,
+514,514,514,514,514,514,514,514
+</data>
+ </layer>
+ <layer id="2" name="mid" width="8" height="14">
+  <properties>
+   <property name="z" type="int" value="0"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,9225,9217,9225,9225,0,0,
+0,9227,9233,9233,9233,9233,9228,0,
+0,9219,0,9421,9422,0,9228,0,
+0,9227,0,9413,9414,0,9228,0,
+0,9219,0,9413,9414,0,9228,0,
+0,9227,0,9427,9428,0,9220,0,
+0,9227,0,9442,9444,0,9228,0,
+0,9235,0,0,0,0,9236,0,
+0,0,0,0,9455,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="foreground" width="8" height="14">
+  <properties>
+   <property name="z" type="int" value="3"/>
+  </properties>
+  <data encoding="csv">
+391,582,582,582,582,582,582,390,
+519,0,0,0,0,0,0,517,
+519,0,0,0,0,0,0,517,
+519,0,0,0,0,0,0,517,
+519,0,0,0,0,0,0,517,
+519,0,0,0,0,0,0,517,
+519,0,0,0,0,0,0,517,
+519,0,0,0,0,0,0,517,
+325,0,0,0,0,0,0,325,
+328,0,0,0,0,0,0,328,
+328,0,0,0,0,0,0,328,
+328,458,458,459,0,457,458,328,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="Object Layer 1">
+  <object id="3" name="exit-s" x="128" y="368" width="32" height="32">
+   <properties>
+    <property name="dest" value="somewhere-d1-public-ovens"/>
+    <property name="destDir" value="d"/>
+    <property name="destPoint" value="exit-n"/>
+   </properties>
+  </object>
+  <object id="4" x="0" y="128" width="52" height="224">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5" x="204" y="128" width="52" height="224">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="6" x="0" y="96" width="256" height="32">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="7" x="0" y="352" width="128" height="64">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="8" x="160" y="352" width="96" height="64">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="9" x="102" y="192" width="52" height="116">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="10" x="128" y="400" width="32" height="16">
+   <properties>
+    <property name="collision" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -9,7 +9,7 @@ import { HitBox, HitObject, HitType } from '@rpgjs/types';
         height: 32
     }
 })
-export default class VillagerEvent extends RpgEvent {
+export default class TeleportMenuEvent extends RpgEvent {
     onInit() {
         this.setGraphic('ancient-crystal');
         this.name = 'Teleport';

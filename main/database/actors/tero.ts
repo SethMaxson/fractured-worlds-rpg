@@ -1,12 +1,12 @@
-import { RpgPlayer, Presets } from '@rpgjs/server'
-import Fighter from '../classes/fighter'
-import { Actor } from '@rpgjs/database'
+import { RpgPlayer, Presets } from "@rpgjs/server";
+import { Actor } from "@rpgjs/database";
+import Kineticist from "../classes/kineticist";
 
 const { MAXHP } = Presets
 
 @Actor({  
-    name: 'Tero',
-    description: 'A talented warrior who channels the elements.',
+    name: "Tero",
+    description: "A talented warrior who channels the elements.",
     initialLevel: 1,
     finalLevel: 20,
     expCurve: {
@@ -22,7 +22,7 @@ const { MAXHP } = Presets
         }
     },
     startingEquipment: [],
-    class: Fighter 
+    class: Kineticist 
 })
 export default class Tero {
     onSet(player: RpgPlayer) {

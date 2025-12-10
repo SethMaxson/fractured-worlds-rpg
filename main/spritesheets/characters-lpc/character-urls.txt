@@ -1,0 +1,14 @@
+~~~~~~~~
+Party:
+~~~~~~~~
+Tero 2: https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator/#?body=Body_color_light&head=Human_female_small_light&sex=female&shadow=Shadow_shadow&tail=Fluffy_Wolf_Tail_white&eye_color=Eye_Color_purple&ears=none_Big_ears&furry_ears=Wolf_Ears_white&expression=Neutral_light&eyebrows=Thin_Eyebrows_platinum&bracers=Bracers_iron&arms=none_Armour&gloves=Gloves_iron&clothes=TShirt_VNeck_green&belt=Leather_Belt_slate&legs=Leggings_2_charcoal&shoes=Folded_Rim_Boots_lavender&shoes_toe=Plated_Toe_silver&apron=none_Overskirt&jacket=none_Tabard&buckles=none_Buckles&necklace=none_Necklace&charm=none_Star_Charm&neck=none_Scarf&hair=Parted_3_white&ponytail=Long_Topknot_white&hairextl=none_Left_Long_Wavy&hairextr=none_Right_XLong_Wavy
+
+
+~~~~~~~~
+Crew:
+~~~~~~~~
+Blackhand Roo: https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator/#?body=Body_color_brown&head=Rabbit_brown&shadow=Shadow_shadow&eyebrows=Thick_Eyebrows_black&clothes=Sleeveless_white&legs=Short_Shorts_tan&gloves=Gloves_charcoal&tail=Lizard_Tail_(Alt_Colors)_fur_tan&overalls=Overalls_navy
+
+Carrie Ward: https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator/#?body=Body_color_brown&head=Human_male_brown&sex=female&shadow=Shadow_shadow&expression=Neutral_brown&eye_color=Eye_Color_brown&eyebrows=Thin_Eyebrows_black&wrinkes=none_Wrinkles&hair=Curly_short_dark_brown&clothes=Longsleeve_2_Buttoned_orange&legs=Pants_blue&shoes=Basic_Shoes_leather&earrings=Pear_earrings_blue
+
+Gugg: https://liberatedpixelcup.github.io/Universal-LPC-Spritesheet-Character-Generator/#?body=Body_color_light&head=Human_male_light&shadow=Shadow_shadow&expression=Angry_light&eye_color=Eye_Color_brown&eyebrows=Thick_Eyebrows_black&hair=Spiked_liberty_black&beard=Winter_Beard_black&clothes=Sleeveless_tan&legs=Short_Shorts_tan&weapon=Club_club
