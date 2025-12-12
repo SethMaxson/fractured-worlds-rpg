@@ -136,7 +136,7 @@
   </object>
   <object id="23" name="exit-w" x="400" y="224" width="32" height="32">
    <properties>
-    <property name="dest" value="vehicle-brightside-f4"/>
+    <property name="dest" value="vehicle-whaleship-f4"/>
     <property name="destDir" value="r"/>
     <property name="destPoint" value="to-bar"/>
     <property name="landDir" value="l"/>

@@ -5,7 +5,7 @@ import CharacterChange from "../../../events/special/character-change";
 
 @MapData({
     id: "vehicle-brightside-f4",
-    file: require("../../../worlds/maps/[Lightships]/whaleship/whaleship-f4.tmx"),
+    file: require("../../../worlds/maps/[Lightships]/brightside/whaleship-f4.tmx"),
     name: "Brightside - Main Deck (F4)",
     events: [
         TeleportMenuEvent,

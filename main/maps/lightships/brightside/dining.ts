@@ -3,7 +3,7 @@ import SimpleNpcEvent from "../../../events/_base-classes/simple-npc";
 
 @MapData({
     id: "brightside-dining",
-    file: require("../../../worlds/maps/[Lightships]/whaleship/whaleship-f4-dining.tmx"),
+    file: require("../../../worlds/maps/[Lightships]/brightside/whaleship-f4-dining.tmx"),
     name: "Brightside - Formal Dining",
     events: [
         // SimpleNpcEvent({

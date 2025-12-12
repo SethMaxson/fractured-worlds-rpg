@@ -4,7 +4,7 @@ import CharacterChange from "../../../events/special/character-change";
 
 @MapData({
     id: "brightside-bar",
-    file: require("../../../worlds/maps/[Lightships]/whaleship/whaleship-f4-bar.tmx"),
+    file: require("../../../worlds/maps/[Lightships]/brightside/whaleship-f4-bar.tmx"),
     name: "Brightside - Pub",
     events: [
         CharacterChange({

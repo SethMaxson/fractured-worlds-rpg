@@ -2,8 +2,8 @@ import { MapData, RpgMap } from "@rpgjs/server";
 import SimpleNpcEvent from "../../../events/_base-classes/simple-npc";
 
 @MapData({
-    id: "whaleship-f6-room1",
-    file: require("../../../worlds/maps/[Lightships]/whaleship/whaleship-f6-room1.tmx"),
+    id: "brightside-f6-room1",
+    file: require("../../../worlds/maps/[Lightships]/brightside/whaleship-f6-room1.tmx"),
     name: "Brightside - Private Room",
     events: [
         // SimpleNpcEvent({

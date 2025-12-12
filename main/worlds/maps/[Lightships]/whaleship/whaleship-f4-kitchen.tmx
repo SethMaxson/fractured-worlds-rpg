@@ -88,7 +88,7 @@
   </object>
   <object id="30" name="exit-s" x="96" y="248" width="32" height="32">
    <properties>
-    <property name="dest" value="vehicle-brightside-f4"/>
+    <property name="dest" value="vehicle-whaleship-f4"/>
     <property name="destDir" value="s"/>
     <property name="destPoint" value="to-kitchen"/>
    </properties>
@@ -110,7 +110,7 @@
   </object>
   <object id="39" name="exit-e" x="312" y="224" width="32" height="32">
    <properties>
-    <property name="dest" value="vehicle-brightside-f4"/>
+    <property name="dest" value="vehicle-whaleship-f4"/>
     <property name="destDir" value="l"/>
     <property name="destPoint" value="to-pantry"/>
    </properties>

@@ -3,7 +3,7 @@ import SimpleNpcEvent from "../../../events/_base-classes/simple-npc";
 
 @MapData({
     id: "brightside-captains-cabin",
-    file: require("../../../worlds/maps/[Lightships]/whaleship/whaleship-f2-captains-cabin.tmx"),
+    file: require("../../../worlds/maps/[Lightships]/brightside/whaleship-f2-captains-cabin.tmx"),
     name: "Brightside - Captain's Cabin",
     events: [
         // SimpleNpcEvent({

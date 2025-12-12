@@ -3,7 +3,7 @@ import SimpleNpcEvent from "../../../events/_base-classes/simple-npc";
 
 @MapData({
     id: "brightside-bridge",
-    file: require("../../../worlds/maps/[Lightships]/whaleship/whaleship-f2-bridge.tmx"),
+    file: require("../../../worlds/maps/[Lightships]/brightside/whaleship-f2-bridge.tmx"),
     name: "Brightside - Bridge",
     events: [
         // SimpleNpcEvent({

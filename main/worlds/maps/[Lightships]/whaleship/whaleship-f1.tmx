@@ -113,7 +113,7 @@
  <objectgroup id="9" name="Object Layer 1">
   <object id="38" name="floor-up" x="496" y="128" width="32" height="32">
    <properties>
-    <property name="dest" value="vehicle-brightside-f2"/>
+    <property name="dest" value="vehicle-whaleship-f2"/>
     <property name="destDir" value="l"/>
     <property name="destPoint" value="floor-down"/>
    </properties>

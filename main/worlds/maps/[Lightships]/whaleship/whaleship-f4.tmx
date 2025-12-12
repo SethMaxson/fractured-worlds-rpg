@@ -180,7 +180,7 @@
   </object>
   <object id="22" name="floor-up" x="144" y="224" width="32" height="28">
    <properties>
-    <property name="dest" value="vehicle-brightside-f5"/>
+    <property name="dest" value="vehicle-whaleship-f5"/>
     <property name="destDir" value="r"/>
     <property name="destPoint" value="floor-down"/>
     <property name="landDir" value="l"/>
@@ -188,7 +188,7 @@
   </object>
   <object id="23" name="floor-down" x="72" y="280" width="16" height="16">
    <properties>
-    <property name="dest" value="vehicle-brightside-f3"/>
+    <property name="dest" value="vehicle-whaleship-f3"/>
     <property name="destDir" value="d"/>
     <property name="destPoint" value="floor-up"/>
    </properties>
@@ -203,7 +203,7 @@
   </object>
   <object id="27" name="to-bar" x="32" y="192" width="16" height="36">
    <properties>
-    <property name="dest" value="brightside-bar"/>
+    <property name="dest" value="whaleship-bar"/>
     <property name="destDir" value="l"/>
     <property name="destPoint" value="exit-w"/>
    </properties>
@@ -220,21 +220,21 @@
   </object>
   <object id="30" name="to-dining-room" x="624" y="256" width="16" height="64">
    <properties>
-    <property name="dest" value="brightside-dining"/>
+    <property name="dest" value="whaleship-dining"/>
     <property name="destDir" value="r"/>
     <property name="destPoint" value="exit-w"/>
    </properties>
   </object>
   <object id="31" name="to-pantry" x="1008" y="288" width="16" height="32">
    <properties>
-    <property name="dest" value="brightside-kitchen"/>
+    <property name="dest" value="whaleship-kitchen"/>
     <property name="destDir" value="r"/>
     <property name="destPoint" value="exit-e"/>
    </properties>
   </object>
   <object id="32" name="to-kitchen" x="832" y="256" width="32" height="16">
    <properties>
-    <property name="dest" value="brightside-kitchen"/>
+    <property name="dest" value="whaleship-kitchen"/>
     <property name="destDir" value="u"/>
     <property name="destPoint" value="exit-s"/>
    </properties>
@@ -254,7 +254,7 @@
   </object>
   <object id="36" name="to-room-1" x="320" y="304" width="32" height="16">
    <properties>
-    <property name="dest" value="brightside-f4-room1"/>
+    <property name="dest" value="whaleship-f4-room1"/>
     <property name="destDir" value="u"/>
     <property name="destPoint" value="exit"/>
     <property name="landDir" value="u"/>
@@ -322,35 +322,35 @@
   </object>
   <object id="50" name="to-room-2" x="384" y="304" width="32" height="16">
    <properties>
-    <property name="dest" value="brightside-f4-room2"/>
+    <property name="dest" value="whaleship-f4-room2"/>
     <property name="destDir" value="u"/>
     <property name="destPoint" value="exit"/>
    </properties>
   </object>
   <object id="51" name="to-room-3" x="480" y="304" width="32" height="16">
    <properties>
-    <property name="dest" value="brightside-f4-room3"/>
+    <property name="dest" value="whaleship-f4-room3"/>
     <property name="destDir" value="u"/>
     <property name="destPoint" value="exit"/>
    </properties>
   </object>
   <object id="52" name="to-room-4" x="352" y="192" width="32" height="16">
    <properties>
-    <property name="dest" value="brightside-f4-room4"/>
+    <property name="dest" value="whaleship-f4-room4"/>
     <property name="destDir" value="u"/>
     <property name="destPoint" value="exit"/>
    </properties>
   </object>
   <object id="53" name="to-room-5" x="448" y="192" width="32" height="16">
    <properties>
-    <property name="dest" value="brightside-f4-room5"/>
+    <property name="dest" value="whaleship-f4-room5"/>
     <property name="destDir" value="u"/>
     <property name="destPoint" value="exit"/>
    </properties>
   </object>
   <object id="54" name="to-room-6" x="544" y="192" width="32" height="16">
    <properties>
-    <property name="dest" value="brightside-f4-room6"/>
+    <property name="dest" value="whaleship-f4-room6"/>
     <property name="destDir" value="u"/>
     <property name="destPoint" value="exit"/>
    </properties>

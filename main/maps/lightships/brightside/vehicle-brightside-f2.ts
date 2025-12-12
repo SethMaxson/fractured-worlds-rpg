@@ -3,7 +3,7 @@ import SimpleNpcEvent from "../../../events/_base-classes/simple-npc";
 
 @MapData({
     id: "vehicle-brightside-f2",
-    file: require("../../../worlds/maps/[Lightships]/whaleship/whaleship-f2.tmx"),
+    file: require("../../../worlds/maps/[Lightships]/brightside/whaleship-f2.tmx"),
     name: "Brightside - Command Deck (F2)",
     events: [
         // SimpleNpcEvent({

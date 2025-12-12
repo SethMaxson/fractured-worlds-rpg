@@ -103,14 +103,14 @@
  <objectgroup id="9" name="Object Layer 1">
   <object id="38" name="floor-up" x="320" y="144" width="32" height="32">
    <properties>
-    <property name="dest" value="vehicle-brightside-f4"/>
+    <property name="dest" value="vehicle-whaleship-f4"/>
     <property name="destDir" value="d"/>
     <property name="destPoint" value="floor-down"/>
    </properties>
   </object>
   <object id="27" name="floor-down" x="480" y="128" width="32" height="32">
    <properties>
-    <property name="dest" value="vehicle-brightside-f2"/>
+    <property name="dest" value="vehicle-whaleship-f2"/>
     <property name="destDir" value="l"/>
     <property name="destPoint" value="floor-up"/>
    </properties>

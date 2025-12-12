@@ -213,6 +213,124 @@
         "maps/[Lightships]/[A]LightShadow_pipo.tsx": {
             "scaleInDock": 1
         },
+        "maps/[Lightships]/brightside/whaleship-f1.tmx": {
+            "scale": 0.4786352040816326,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 720.7994670219854,
+                "y": 240.26648900732846
+            }
+        },
+        "maps/[Lightships]/brightside/whaleship-f2-bridge.tmx": {
+            "scale": 2,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 218.5,
+                "y": 209.5
+            }
+        },
+        "maps/[Lightships]/brightside/whaleship-f2-captains-cabin.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 219.33333333333334,
+                "y": 99.33333333333331
+            }
+        },
+        "maps/[Lightships]/brightside/whaleship-f2-officer-cabin-1.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 102.33333333333334,
+                "y": 124.33333333333331
+            }
+        },
+        "maps/[Lightships]/brightside/whaleship-f2.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 166.66666666666669,
+                "y": 145.33333333333331
+            }
+        },
+        "maps/[Lightships]/brightside/whaleship-f4-bar.tmx": {
+            "scale": 0.4786352040816326,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 783.4776815456363,
+                "y": 223.55229846768827
+            }
+        },
+        "maps/[Lightships]/brightside/whaleship-f4-dining.tmx": {
+            "scale": 0.4786352040816326,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 125.35642904730184,
+                "y": -52.23184543637569
+            }
+        },
+        "maps/[Lightships]/brightside/whaleship-f4-kitchen.tmx": {
+            "scale": 0.4786352040816326,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -271.6055962691539,
+                "y": 192.2131912058628
+            }
+        },
+        "maps/[Lightships]/brightside/whaleship-f4-room1.tmx": {
+            "scale": 0.4786352040816326,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 175.4990006662225,
+                "y": 192.2131912058628
+            }
+        },
+        "maps/[Lightships]/brightside/whaleship-f4-room4.tmx": {
+            "scale": 0.4786352040816326,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 175.4990006662225,
+                "y": 192.2131912058628
+            }
+        },
+        "maps/[Lightships]/brightside/whaleship-f4.tmx": {
+            "expandedObjectLayers": [
+                9
+            ],
+            "scale": 2,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 382,
+                "y": 204
+            }
+        },
+        "maps/[Lightships]/brightside/whaleship-f5.tmx": {
+            "scale": 0.4786352040816326,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 432.4796802131913,
+                "y": 208.9273817455031
+            }
+        },
+        "maps/[Lightships]/brightside/whaleship-f6-room1.tmx": {
+            "expandedObjectLayers": [
+                9
+            ],
+            "scale": 2,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 103,
+                "y": 137
+            }
+        },
+        "maps/[Lightships]/brightside/whaleship-f6.tmx": {
+            "scale": 1,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 340,
+                "y": 113
+            }
+        },
         "maps/[Lightships]/custom_tilesets/[A]BouncingArrows.tsx": {
             "scaleInDock": 1
         },
@@ -277,10 +395,10 @@
                 9
             ],
             "scale": 1,
-            "selectedLayer": 2,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 589,
-                "y": 110
+                "x": 538,
+                "y": 204
             }
         },
         "maps/[Lightships]/whaleship/whaleship-f2-bridge.tmx": {
@@ -299,7 +417,7 @@
                 9
             ],
             "scale": 1.5,
-            "selectedLayer": 4,
+            "selectedLayer": 5,
             "viewCenter": {
                 "x": 257.33333333333326,
                 "y": 102.66666666666663
@@ -310,7 +428,7 @@
                 9
             ],
             "scale": 1,
-            "selectedLayer": 0,
+            "selectedLayer": 5,
             "viewCenter": {
                 "x": 367,
                 "y": 236
@@ -321,7 +439,7 @@
                 9
             ],
             "scale": 1.5,
-            "selectedLayer": 0,
+            "selectedLayer": 4,
             "viewCenter": {
                 "x": 257.33333333333326,
                 "y": 101.99999999999997
@@ -365,7 +483,7 @@
                 9
             ],
             "scale": 2,
-            "selectedLayer": 0,
+            "selectedLayer": 5,
             "viewCenter": {
                 "x": 189.5,
                 "y": 271.5
@@ -376,10 +494,10 @@
                 9
             ],
             "scale": 1.5,
-            "selectedLayer": 2,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 423.3333333333333,
-                "y": 128.66666666666663
+                "x": 474.66666666666663,
+                "y": 235.99999999999997
             }
         },
         "maps/[Lightships]/whaleship/whaleship-f4-bar.tmx": {
@@ -444,8 +562,8 @@
             "scale": 2,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 193.5,
-                "y": 169
+                "x": 246,
+                "y": 277.5
             }
         },
         "maps/[Lightships]/whaleship/whaleship-f5.tmx": {
@@ -1029,14 +1147,14 @@
         "maps/somewhere-district-1.tmx": {
             "expandedObjectLayers": [
                 14,
-                3,
-                15
+                15,
+                3
             ],
             "scale": 1.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 261.33333333333326,
-                "y": 283.33333333333337
+                "x": 1705.3333333333333,
+                "y": 1515.3333333333333
             }
         },
         "maps/somewhere-district-2.tmx": {
@@ -1184,18 +1302,18 @@
     "project": "fractured-worlds.tiled-project",
     "property.type": "bool",
     "recentFiles": [
-        "maps/[Lightships]/happy-turtle/happy-turtle-f1.tmx",
-        "maps/roofs.tsx",
-        "maps/[Town]VictorianMarket_LPC.tsx",
-        "maps/somewhere-district-1.tmx",
+        "maps/[Lightships]/whaleship/whaleship-f4.tmx",
         "maps/somewhere-district-2.tmx",
-        "maps/Assorted_LPC/lpc-walls/walls.tsx",
-        "maps/interiors/somewhere-d1-public-ovens.tmx",
+        "maps/somewhere-district-1.tmx",
         "maps/custom_tilesets/[Lightship]Whaleship.tsx",
-        "maps/[Worlds]/somewhere/west-park.tmx",
-        "maps/Assorted_cc0/[LPC]scifi_space_rpg_tiles_lpcized.tsx",
-        "maps/[A]Wall-Up_pipo.tsx",
-        "maps/Assorted_cc0/owlishmedia_pixel_tiles_cc0.tsx"
+        "maps/[Lightships]/brightside/whaleship-f2-officer-cabin-1.tmx",
+        "maps/[Lightships]/whaleship/whaleship-f2-bridge.tmx",
+        "maps/[Lightships]/whaleship/whaleship-f2-officer-cabin-2.tmx",
+        "maps/[Lightships]/whaleship/whaleship-f3.tmx",
+        "maps/[Lightships]/whaleship/whaleship-f2-officer-cabin-1.tmx",
+        "maps/[Lightships]/whaleship/whaleship-f2-hallway.tmx",
+        "maps/[Lightships]/whaleship/whaleship-f2-engine-room.tmx",
+        "maps/[Lightships]/whaleship/whaleship-f2-captains-cabin.tmx"
     ],
     "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
     "tileset.lastUsedFormat": "tsx"

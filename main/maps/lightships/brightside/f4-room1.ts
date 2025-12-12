@@ -3,7 +3,7 @@ import SimpleNpcEvent from "../../../events/_base-classes/simple-npc";
 
 @MapData({
     id: "brightside-f4-room1",
-    file: require("../../../worlds/maps/[Lightships]/whaleship/whaleship-f4-room1.tmx"),
+    file: require("../../../worlds/maps/[Lightships]/brightside/whaleship-f4-room1.tmx"),
     name: "Brightside - Private Room",
     events: [
         // SimpleNpcEvent({

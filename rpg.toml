@@ -52,10 +52,10 @@ modules = [
     # map = 'vehicle-brightside-f4'
     
     # map = 'wonderland-visit-1-maze'
-    map = 'npc-test'
+    # map = 'npc-test'
 
     # Best starting map
-    # map = 'brightside-bar'
+    map = 'brightside-bar'
 
     graphic = 'tero-2'
     hitbox = [16, 16]

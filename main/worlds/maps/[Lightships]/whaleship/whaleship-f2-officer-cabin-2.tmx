@@ -93,7 +93,7 @@
   </object>
   <object id="30" name="exit" x="64" y="272" width="32" height="32">
    <properties>
-    <property name="dest" value="brightside-f2-hallway"/>
+    <property name="dest" value="whaleship-f2-hallway"/>
     <property name="destPoint" value="exit-ne"/>
     <property name="dir" value="u"/>
    </properties>

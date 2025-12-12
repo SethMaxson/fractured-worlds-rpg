@@ -59,7 +59,7 @@
  <objectgroup id="9" name="Object Layer 1">
   <object id="63" name="exit-e" x="336" y="128" width="32" height="32">
    <properties>
-    <property name="dest" value="brightside-bridge"/>
+    <property name="dest" value="whaleship-bridge"/>
     <property name="destPoint" value="exit-w"/>
     <property name="dir" value="l"/>
    </properties>
@@ -91,7 +91,7 @@
   </object>
   <object id="94" name="exit-w" x="48" y="128" width="32" height="32">
    <properties>
-    <property name="dest" value="brightside-captains-cabin"/>
+    <property name="dest" value="whaleship-captains-cabin"/>
     <property name="destPoint" value="exit"/>
     <property name="dir" value="r"/>
    </properties>
@@ -108,14 +108,14 @@
   </object>
   <object id="97" name="exit-ne" x="224" y="96" width="32" height="16">
    <properties>
-    <property name="dest" value="brightside-officer-cabin-2"/>
+    <property name="dest" value="whaleship-officer-cabin-2"/>
     <property name="destPoint" value="exit"/>
     <property name="dir" value="d"/>
    </properties>
   </object>
   <object id="98" name="exit-nw" x="128" y="96" width="32" height="16">
    <properties>
-    <property name="dest" value="brightside-officer-cabin-1"/>
+    <property name="dest" value="whaleship-officer-cabin-1"/>
     <property name="destPoint" value="exit"/>
     <property name="dir" value="d"/>
    </properties>

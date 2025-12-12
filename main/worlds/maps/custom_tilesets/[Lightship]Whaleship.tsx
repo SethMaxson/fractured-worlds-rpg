@@ -421,26 +421,6 @@
    <property name="z" type="int" value="0"/>
   </properties>
  </tile>
- <tile id="400">
-  <properties>
-   <property name="z" type="int" value="0"/>
-  </properties>
- </tile>
- <tile id="401">
-  <properties>
-   <property name="z" type="int" value="0"/>
-  </properties>
- </tile>
- <tile id="402">
-  <properties>
-   <property name="z" type="int" value="0"/>
-  </properties>
- </tile>
- <tile id="403">
-  <properties>
-   <property name="z" type="int" value="0"/>
-  </properties>
- </tile>
  <tile id="408">
   <properties>
    <property name="collision" type="bool" value="true"/>
